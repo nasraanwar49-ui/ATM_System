@@ -53,7 +53,7 @@ nunit-*.xml
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
-dlldata.c
+
 
 # Benchmark Results
 BenchmarkDotNet.Artifacts/
@@ -337,7 +337,7 @@ OpenCover/
 ASALocalRun/
 
 # MSBuild Binary and Structured Log
-*.binlog
+
 
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
