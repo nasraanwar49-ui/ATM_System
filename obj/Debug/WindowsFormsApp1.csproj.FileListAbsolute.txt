@@ -1,0 +1,186 @@
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Guna.UI.dll
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Error.resources
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\محمد ابوبكر\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.success.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmChangePinArabic.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Error.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmChangepin_english.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Balance.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Deposit.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmPIN.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Language.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_main_arabic.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_main.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_PIN_arabic.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.success.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_arabic.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_arabic_confirm.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_english_confirm.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_english.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.خطا.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.نجاح.resources
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\مشاريع\ATM Deposit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmChangePinArabic.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Error.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmChangepin_english.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Balance.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Deposit.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmPIN.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Language.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_main_arabic.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_main.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_PIN_arabic.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.success.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_arabic.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_arabic_confirm.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_english_confirm.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_english.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.خطا.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.نجاح.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmAnotherAmountAR.resources
+C:\Users\rakan\Desktop\ATM_System\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmAnotherAmountEN.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\ATM.mdf
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\ATM_log.ldf
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmChangePinArabic.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Error.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmAnotherAmountAR.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmAnotherAmountEN.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmChangepin_english.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Balance.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Deposit.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmPIN.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Language.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_main_arabic.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_main.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_PIN_arabic.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.success.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_arabic.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_arabic_confirm.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_english_confirm.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_english.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.خطا.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.نجاح.resources
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\PC\Desktop\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\ATM.mdf
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\ATM_log.ldf
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmChangePinArabic.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Error.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmAnotherAmountAR.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmAnotherAmountEN.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmChangepin_english.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Balance.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Deposit.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmPIN.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Language.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_main_arabic.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_main.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_PIN_arabic.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.success.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_arabic.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_arabic_confirm.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_english_confirm.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_english.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.خطا.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.نجاح.resources
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\rakan\Desktop\ATM_System_Nasra\ATM_System_Nasra\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\bin\Debug\ATM.mdf
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\bin\Debug\ATM_log.ldf
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmChangePinArabic.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Error.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmAnotherAmountAR.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmAnotherAmountEN.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmChangepin_english.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Balance.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Deposit.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmPIN.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_Language.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_main_arabic.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_main.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frm_PIN_arabic.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.success.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_arabic.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_arabic_confirm.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_english_confirm.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmwithdrwal_english.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.خطا.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.نجاح.resources
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
