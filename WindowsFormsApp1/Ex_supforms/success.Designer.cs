@@ -199,6 +199,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "success";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "success";
             this.Load += new System.EventHandler(this.success_Load);
             this.gunaGradientPanel1.ResumeLayout(false);

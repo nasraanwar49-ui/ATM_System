@@ -263,6 +263,7 @@
             this.Controls.Add(this.gunaGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmwithdrwal_english_confirm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frmwithdrwal_english_confirm_Load);
             this.gunaGradientPanel1.ResumeLayout(false);
