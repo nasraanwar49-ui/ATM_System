@@ -86,7 +86,9 @@ namespace WindowsFormsApp1
 
             int rows = cmd.ExecuteNonQuery();
 
+
             DB.con.Close();
+            
 
             // IF NOT ENOUGH CASH
             if (rows == 0)

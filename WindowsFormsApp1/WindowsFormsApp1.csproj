@@ -314,10 +314,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ATM.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="ATM_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>ATM.mdf</DependentUpon>
     </Content>
   </ItemGroup>

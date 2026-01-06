@@ -184,3 +184,4 @@ C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\bin\Debu
 C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\bin\Debug\Guna.UI.dll
 C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
 C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\rakan\source\repos\nasraanwar49-ui\ATM_System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
