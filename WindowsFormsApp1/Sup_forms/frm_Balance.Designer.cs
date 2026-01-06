@@ -33,11 +33,11 @@
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnNo = new System.Windows.Forms.Button();
+            this.btnYes = new System.Windows.Forms.Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblBalance = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.gunaGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
@@ -53,11 +53,11 @@
             this.gunaGradientPanel1.Controls.Add(this.guna2PictureBox3);
             this.gunaGradientPanel1.Controls.Add(this.label4);
             this.gunaGradientPanel1.Controls.Add(this.guna2PictureBox2);
-            this.gunaGradientPanel1.Controls.Add(this.button2);
-            this.gunaGradientPanel1.Controls.Add(this.button1);
+            this.gunaGradientPanel1.Controls.Add(this.btnNo);
+            this.gunaGradientPanel1.Controls.Add(this.btnYes);
             this.gunaGradientPanel1.Controls.Add(this.guna2PictureBox1);
             this.gunaGradientPanel1.Controls.Add(this.label3);
-            this.gunaGradientPanel1.Controls.Add(this.label2);
+            this.gunaGradientPanel1.Controls.Add(this.lblBalance);
             this.gunaGradientPanel1.Controls.Add(this.label1);
             this.gunaGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaGradientPanel1.ForeColor = System.Drawing.Color.Transparent;
@@ -113,32 +113,33 @@
             this.guna2PictureBox2.TabIndex = 8;
             this.guna2PictureBox2.TabStop = false;
             // 
-            // button2
+            // btnNo
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button2.Location = new System.Drawing.Point(105, 303);
-            this.button2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(209, 54);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "No";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnNo.BackColor = System.Drawing.Color.White;
+            this.btnNo.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNo.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnNo.Location = new System.Drawing.Point(105, 303);
+            this.btnNo.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.btnNo.Name = "btnNo";
+            this.btnNo.Size = new System.Drawing.Size(209, 54);
+            this.btnNo.TabIndex = 6;
+            this.btnNo.Text = "No";
+            this.btnNo.UseVisualStyleBackColor = false;
+            this.btnNo.Click += new System.EventHandler(this.btnNo_Click);
             // 
-            // button1
+            // btnYes
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(565, 303);
-            this.button1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(229, 54);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Yes";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnYes.BackColor = System.Drawing.Color.White;
+            this.btnYes.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnYes.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnYes.Location = new System.Drawing.Point(565, 303);
+            this.btnYes.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.btnYes.Name = "btnYes";
+            this.btnYes.Size = new System.Drawing.Size(229, 54);
+            this.btnYes.TabIndex = 4;
+            this.btnYes.Text = "Yes";
+            this.btnYes.UseVisualStyleBackColor = false;
+            this.btnYes.Click += new System.EventHandler(this.btnYes_Click);
             // 
             // guna2PictureBox1
             // 
@@ -160,25 +161,25 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(242, 174);
+            this.label3.Location = new System.Drawing.Point(269, 174);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(377, 78);
             this.label3.TabIndex = 2;
             this.label3.Text = "Would you like to perform\r\n     another transaction";
             // 
-            // label2
+            // lblBalance
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(376, 103);
-            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 39);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "5678.89";
+            this.lblBalance.AutoSize = true;
+            this.lblBalance.BackColor = System.Drawing.Color.Transparent;
+            this.lblBalance.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBalance.ForeColor = System.Drawing.Color.White;
+            this.lblBalance.Location = new System.Drawing.Point(393, 103);
+            this.lblBalance.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblBalance.Name = "lblBalance";
+            this.lblBalance.Size = new System.Drawing.Size(128, 39);
+            this.lblBalance.TabIndex = 1;
+            this.lblBalance.Text = "5678.89";
             // 
             // label1
             // 
@@ -186,7 +187,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(282, 33);
+            this.label1.Location = new System.Drawing.Point(303, 33);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(308, 46);
@@ -221,10 +222,10 @@
 
         private Guna.UI.WinForms.GunaGradientPanel gunaGradientPanel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblBalance;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnYes;
+        private System.Windows.Forms.Button btnNo;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private System.Windows.Forms.Label label4;

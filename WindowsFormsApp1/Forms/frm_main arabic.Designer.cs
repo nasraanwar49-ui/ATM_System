@@ -33,7 +33,7 @@
             this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
@@ -51,7 +51,7 @@
             this.gunaGradientPanel1.Controls.Add(this.gunaPictureBox2);
             this.gunaGradientPanel1.Controls.Add(this.gunaLabel1);
             this.gunaGradientPanel1.Controls.Add(this.gunaLabel3);
-            this.gunaGradientPanel1.Controls.Add(this.guna2Button5);
+            this.gunaGradientPanel1.Controls.Add(this.btnExit);
             this.gunaGradientPanel1.Controls.Add(this.guna2Button4);
             this.gunaGradientPanel1.Controls.Add(this.guna2Button3);
             this.gunaGradientPanel1.Controls.Add(this.guna2Button2);
@@ -108,21 +108,22 @@
             this.gunaLabel3.TabIndex = 19;
             this.gunaLabel3.Text = "اختر طلبك";
             // 
-            // guna2Button5
+            // btnExit
             // 
-            this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.BorderRadius = 15;
-            this.guna2Button5.BorderThickness = 1;
-            this.guna2Button5.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.FillColor = System.Drawing.Color.White;
-            this.guna2Button5.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button5.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button5.Location = new System.Drawing.Point(352, 451);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(224, 55);
-            this.guna2Button5.TabIndex = 18;
-            this.guna2Button5.Text = "خروج";
+            this.btnExit.BackColor = System.Drawing.Color.Transparent;
+            this.btnExit.BorderRadius = 15;
+            this.btnExit.BorderThickness = 1;
+            this.btnExit.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.FillColor = System.Drawing.Color.White;
+            this.btnExit.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.Black;
+            this.btnExit.Location = new System.Drawing.Point(352, 451);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(224, 55);
+            this.btnExit.TabIndex = 18;
+            this.btnExit.Text = "خروج";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // guna2Button4
             // 
@@ -228,7 +229,7 @@
 
         private Guna.UI.WinForms.GunaGradientPanel gunaGradientPanel1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button btnExit;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
