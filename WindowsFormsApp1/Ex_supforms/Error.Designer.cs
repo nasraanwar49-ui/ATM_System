@@ -83,7 +83,7 @@
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.IMG_3470_removebg_preview;
-            this.guna2PictureBox3.ImageRotate = 0F;
+          //  this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(807, -6);
             this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
@@ -100,7 +100,7 @@
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::WindowsFormsApp1.Properties.Resources._447_4478515_x_transparent_pirate_pirate_x_marks_the_spot_removebg_preview;
-            this.guna2PictureBox2.ImageRotate = 0F;
+           // this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(403, 176);
             this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
@@ -126,10 +126,10 @@
             // 
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button1.BorderRadius = 20;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+          //  this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+           // this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+           // this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+           // this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.FillColor = System.Drawing.Color.GhostWhite;
             this.guna2Button1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
@@ -146,7 +146,7 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-            this.guna2PictureBox1.ImageRotate = 0F;
+          //  this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(63, 193);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";

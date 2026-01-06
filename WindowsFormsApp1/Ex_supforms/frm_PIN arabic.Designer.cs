@@ -109,7 +109,7 @@
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.ImageRotate = 0F;
+          //  this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(387, 132);
             this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2PictureBox3.Name = "guna2PictureBox3";

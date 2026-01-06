@@ -116,7 +116,7 @@
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.ImageRotate = 0F;
+         //  this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(384, 129);
             this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
@@ -278,7 +278,7 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-            this.guna2PictureBox1.ImageRotate = 0F;
+          //  this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(318, 380);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";

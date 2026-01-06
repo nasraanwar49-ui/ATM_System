@@ -146,7 +146,7 @@
             // guna2CirclePictureBox1
             // 
             this.guna2CirclePictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.IMG_3470_removebg_preview;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
+           // this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(625, 4);
             this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
@@ -267,7 +267,7 @@
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-            this.guna2PictureBox1.ImageRotate = 0F;
+           // this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(316, 220);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";

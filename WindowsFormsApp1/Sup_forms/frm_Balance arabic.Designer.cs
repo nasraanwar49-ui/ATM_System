@@ -84,7 +84,7 @@
             // 
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.ImageRotate = 0F;
+          //  this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(753, 4);
             this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
@@ -122,7 +122,7 @@
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
+          //  this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(54, 331);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
