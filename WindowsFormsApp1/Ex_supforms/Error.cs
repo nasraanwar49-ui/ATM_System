@@ -24,7 +24,9 @@ namespace WindowsFormsApp1
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            frm_Deposit deposit = new frm_Deposit();
+            deposit.Show();
+            this.Hide();
         }
 
         private void gunaGradientPanel1_Click(object sender, EventArgs e)

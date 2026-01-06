@@ -24,12 +24,19 @@ namespace WindowsFormsApp1
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void gunaLabel2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            frmPIN pin = new frmPIN();  
+            pin.Show();
+            this.Hide();
         }
     }
 }
