@@ -76,20 +76,26 @@
             this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.DisabledState.Parent = this.guna2TextBox2;
             this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.FocusedState.Parent = this.guna2TextBox2;
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
             this.guna2TextBox2.Location = new System.Drawing.Point(237, 240);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5);
+            this.guna2TextBox2.MaxLength = 4;
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '*';
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
+            this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
             this.guna2TextBox2.Size = new System.Drawing.Size(456, 50);
             this.guna2TextBox2.TabIndex = 21;
             this.guna2TextBox2.UseSystemPasswordChar = true;
             this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
+            this.guna2TextBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.guna2TextBox2_KeyPress);
             // 
             // gunaPictureBox2
             // 
@@ -109,10 +115,10 @@
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-          //  this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(387, 132);
             this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
             this.guna2PictureBox3.Size = new System.Drawing.Size(169, 112);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 19;
@@ -149,13 +155,17 @@
             this.txtPIN.BackColor = System.Drawing.Color.Transparent;
             this.txtPIN.BorderRadius = 15;
             this.txtPIN.BorderThickness = 1;
+            this.txtPIN.CheckedState.Parent = this.txtPIN;
             this.txtPIN.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.txtPIN.CustomImages.Parent = this.txtPIN;
             this.txtPIN.FillColor = System.Drawing.Color.White;
             this.txtPIN.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPIN.ForeColor = System.Drawing.Color.Black;
+            this.txtPIN.HoverState.Parent = this.txtPIN;
             this.txtPIN.Location = new System.Drawing.Point(367, 346);
             this.txtPIN.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtPIN.Name = "txtPIN";
+            this.txtPIN.ShadowDecoration.Parent = this.txtPIN;
             this.txtPIN.Size = new System.Drawing.Size(190, 46);
             this.txtPIN.TabIndex = 15;
             this.txtPIN.Text = "ادخل";

@@ -35,11 +35,11 @@
             this.btnYes = new Guna.UI2.WinForms.Guna2Button();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtTotalAmount = new Guna.UI.WinForms.GunaLabel();
+            this.lblTotalAmountResult = new Guna.UI.WinForms.GunaLabel();
             this.lblTotal_Amount = new Guna.UI.WinForms.GunaLabel();
-            this.txtcommission = new Guna.UI.WinForms.GunaLabel();
+            this.lblcommissionResult = new Guna.UI.WinForms.GunaLabel();
             this.lblCommission = new Guna.UI.WinForms.GunaLabel();
-            this.txtAmount = new Guna.UI.WinForms.GunaLabel();
+            this.lblAmountResult = new Guna.UI.WinForms.GunaLabel();
             this.lblAmount = new Guna.UI.WinForms.GunaLabel();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
@@ -91,11 +91,15 @@
             // 
             this.btnNo.BackColor = System.Drawing.Color.Transparent;
             this.btnNo.BorderRadius = 13;
+            this.btnNo.CheckedState.Parent = this.btnNo;
+            this.btnNo.CustomImages.Parent = this.btnNo;
             this.btnNo.FillColor = System.Drawing.Color.White;
             this.btnNo.Font = new System.Drawing.Font("Arial Narrow", 16.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNo.ForeColor = System.Drawing.Color.Black;
+            this.btnNo.HoverState.Parent = this.btnNo;
             this.btnNo.Location = new System.Drawing.Point(745, 444);
             this.btnNo.Name = "btnNo";
+            this.btnNo.ShadowDecoration.Parent = this.btnNo;
             this.btnNo.Size = new System.Drawing.Size(186, 57);
             this.btnNo.TabIndex = 9;
             this.btnNo.Text = "NO";
@@ -105,11 +109,15 @@
             // 
             this.btnYes.BackColor = System.Drawing.Color.Transparent;
             this.btnYes.BorderRadius = 13;
+            this.btnYes.CheckedState.Parent = this.btnYes;
+            this.btnYes.CustomImages.Parent = this.btnYes;
             this.btnYes.FillColor = System.Drawing.Color.White;
             this.btnYes.Font = new System.Drawing.Font("Arial Narrow", 16.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnYes.ForeColor = System.Drawing.Color.Black;
+            this.btnYes.HoverState.Parent = this.btnYes;
             this.btnYes.Location = new System.Drawing.Point(745, 370);
             this.btnYes.Name = "btnYes";
+            this.btnYes.ShadowDecoration.Parent = this.btnYes;
             this.btnYes.Size = new System.Drawing.Size(186, 57);
             this.btnYes.TabIndex = 9;
             this.btnYes.Text = "Yes";
@@ -118,11 +126,11 @@
             // gunaPanel1
             // 
             this.gunaPanel1.Controls.Add(this.panel1);
-            this.gunaPanel1.Controls.Add(this.txtTotalAmount);
+            this.gunaPanel1.Controls.Add(this.lblTotalAmountResult);
             this.gunaPanel1.Controls.Add(this.lblTotal_Amount);
-            this.gunaPanel1.Controls.Add(this.txtcommission);
+            this.gunaPanel1.Controls.Add(this.lblcommissionResult);
             this.gunaPanel1.Controls.Add(this.lblCommission);
-            this.gunaPanel1.Controls.Add(this.txtAmount);
+            this.gunaPanel1.Controls.Add(this.lblAmountResult);
             this.gunaPanel1.Controls.Add(this.lblAmount);
             this.gunaPanel1.Location = new System.Drawing.Point(3, 109);
             this.gunaPanel1.Name = "gunaPanel1";
@@ -137,17 +145,17 @@
             this.panel1.Size = new System.Drawing.Size(2, 200);
             this.panel1.TabIndex = 9;
             // 
-            // txtTotalAmount
+            // lblTotalAmountResult
             // 
-            this.txtTotalAmount.AutoSize = true;
-            this.txtTotalAmount.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotalAmount.ForeColor = System.Drawing.Color.Purple;
-            this.txtTotalAmount.Location = new System.Drawing.Point(201, 110);
-            this.txtTotalAmount.Name = "txtTotalAmount";
-            this.txtTotalAmount.Size = new System.Drawing.Size(120, 33);
-            this.txtTotalAmount.TabIndex = 0;
-            this.txtTotalAmount.Text = "5.000.00 ";
-            this.txtTotalAmount.Click += new System.EventHandler(this.txtTotalAmount_Click);
+            this.lblTotalAmountResult.AutoSize = true;
+            this.lblTotalAmountResult.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalAmountResult.ForeColor = System.Drawing.Color.Purple;
+            this.lblTotalAmountResult.Location = new System.Drawing.Point(201, 110);
+            this.lblTotalAmountResult.Name = "lblTotalAmountResult";
+            this.lblTotalAmountResult.Size = new System.Drawing.Size(120, 33);
+            this.lblTotalAmountResult.TabIndex = 0;
+            this.lblTotalAmountResult.Text = "5.000.00 ";
+            this.lblTotalAmountResult.Click += new System.EventHandler(this.txtTotalAmount_Click);
             // 
             // lblTotal_Amount
             // 
@@ -160,16 +168,16 @@
             this.lblTotal_Amount.TabIndex = 0;
             this.lblTotal_Amount.Text = "Total Amount";
             // 
-            // txtcommission
+            // lblcommissionResult
             // 
-            this.txtcommission.AutoSize = true;
-            this.txtcommission.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcommission.ForeColor = System.Drawing.Color.Purple;
-            this.txtcommission.Location = new System.Drawing.Point(201, 64);
-            this.txtcommission.Name = "txtcommission";
-            this.txtcommission.Size = new System.Drawing.Size(50, 33);
-            this.txtcommission.TabIndex = 0;
-            this.txtcommission.Text = "0.0";
+            this.lblcommissionResult.AutoSize = true;
+            this.lblcommissionResult.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcommissionResult.ForeColor = System.Drawing.Color.Purple;
+            this.lblcommissionResult.Location = new System.Drawing.Point(201, 64);
+            this.lblcommissionResult.Name = "lblcommissionResult";
+            this.lblcommissionResult.Size = new System.Drawing.Size(50, 33);
+            this.lblcommissionResult.TabIndex = 0;
+            this.lblcommissionResult.Text = "0.0";
             // 
             // lblCommission
             // 
@@ -182,17 +190,17 @@
             this.lblCommission.TabIndex = 0;
             this.lblCommission.Text = "Commission";
             // 
-            // txtAmount
+            // lblAmountResult
             // 
-            this.txtAmount.AutoSize = true;
-            this.txtAmount.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAmount.ForeColor = System.Drawing.Color.Purple;
-            this.txtAmount.Location = new System.Drawing.Point(201, 16);
-            this.txtAmount.Name = "txtAmount";
-            this.txtAmount.Size = new System.Drawing.Size(158, 33);
-            this.txtAmount.TabIndex = 0;
-            this.txtAmount.Text = "5.000.00 YR";
-            this.txtAmount.Click += new System.EventHandler(this.txtAmount_Click);
+            this.lblAmountResult.AutoSize = true;
+            this.lblAmountResult.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAmountResult.ForeColor = System.Drawing.Color.Purple;
+            this.lblAmountResult.Location = new System.Drawing.Point(201, 16);
+            this.lblAmountResult.Name = "lblAmountResult";
+            this.lblAmountResult.Size = new System.Drawing.Size(158, 33);
+            this.lblAmountResult.TabIndex = 0;
+            this.lblAmountResult.Text = "5.000.00 YR";
+            this.lblAmountResult.Click += new System.EventHandler(this.txtAmount_Click);
             // 
             // lblAmount
             // 
@@ -210,9 +218,9 @@
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.IMG_3470_removebg_preview;
-           // this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(786, 0);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
             this.guna2PictureBox2.Size = new System.Drawing.Size(123, 91);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 7;
@@ -246,9 +254,9 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-           // this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(11, 238);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
             this.guna2PictureBox1.Size = new System.Drawing.Size(545, 536);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 6;
@@ -288,9 +296,9 @@
         private System.Windows.Forms.Panel panel1;
         private Guna.UI.WinForms.GunaLabel lblTotal_Amount;
         private Guna.UI.WinForms.GunaLabel lblCommission;
-        private Guna.UI.WinForms.GunaLabel txtTotalAmount;
-        private Guna.UI.WinForms.GunaLabel txtcommission;
-        private Guna.UI.WinForms.GunaLabel txtAmount;
+        private Guna.UI.WinForms.GunaLabel lblTotalAmountResult;
+        private Guna.UI.WinForms.GunaLabel lblcommissionResult;
+        private Guna.UI.WinForms.GunaLabel lblAmountResult;
         private Guna.UI2.WinForms.Guna2Button btnYes;
         private Guna.UI2.WinForms.Guna2Button btnNo;
         private Guna.UI.WinForms.GunaLabel gunaLabel8;

@@ -69,5 +69,13 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void guna2TextBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
