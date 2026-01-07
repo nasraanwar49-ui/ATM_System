@@ -316,9 +316,12 @@
     <None Include="Resources\withdraw-icon-line-icon-for-your-website-mobile-presentation-and-logo-design-vector.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ATM.mdf" />
+    <Content Include="ATM.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="ATM_log.ldf">
       <DependentUpon>ATM.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="libs\guna\Guna.UI.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
