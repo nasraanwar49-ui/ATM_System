@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
 
             if (result != null)
             {
-                int ID_Users = Convert.ToInt32(result);
+                seesion.ID_Users = Convert.ToInt32(result);
                 MessageBox.Show("Login Successful");
 
                 frm_main_arabic frm_main_ = new frm_main_arabic();

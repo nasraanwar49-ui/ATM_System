@@ -45,9 +45,10 @@ namespace WindowsFormsApp1
             int amount;
             if (!int.TryParse(txt_ampunt2.Text, out amount) || amount <= 0)
             {
-                Error errorForm = new Error();
+                خطا errorForm = new خطا();
                 errorForm.Show();
                 this.Hide();
+                MessageBox.Show("enter numbers");
                 return;
             }
             try
@@ -72,13 +73,14 @@ namespace WindowsFormsApp1
                 }
                 else
                 {
-                    frm_PIN_arabic errorForm = new frm_PIN_arabic();
+                    خطا errorForm = new خطا();
                     errorForm.Show();
+                    MessageBox.Show("error");
                 }
             }
             catch (Exception ex)
-            {
-                Error errorForm = new Error();
+            { 
+                خطا errorForm = new خطا();
                 errorForm.Show();
                 MessageBox.Show(ex.Message);
             }

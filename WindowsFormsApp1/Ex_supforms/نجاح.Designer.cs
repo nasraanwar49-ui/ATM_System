@@ -143,7 +143,7 @@
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(215, 50);
             this.guna2Button1.TabIndex = 19;
-            this.guna2Button1.Text = "Yes";
+            this.guna2Button1.Text = "نعم";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Button2
@@ -162,7 +162,7 @@
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
             this.guna2Button2.Size = new System.Drawing.Size(240, 50);
             this.guna2Button2.TabIndex = 18;
-            this.guna2Button2.Text = "No";
+            this.guna2Button2.Text = "لا";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // gunaLabel1

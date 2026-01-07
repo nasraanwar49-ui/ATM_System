@@ -60,7 +60,6 @@ namespace WindowsFormsApp1
                     DB.con.Close();
 
                 DB.con.Open();
-
                 DB.cmd = new SqlCommand(
                     "UPDATE Users SET Balance = Balance + @amount WHERE ID_Users = @id AND IsActive = 1",
                     DB.con);
@@ -83,9 +82,9 @@ namespace WindowsFormsApp1
             }
             catch (Exception ex)
             {
+                MessageBox.Show(ex.Message);
                 Error errorForm = new Error();
                 errorForm.Show();
-                MessageBox.Show(ex.Message);
             }
 
         }   
