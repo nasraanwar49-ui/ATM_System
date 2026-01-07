@@ -45,49 +45,50 @@ namespace WindowsFormsApp1
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
-            decimal amount;
-            if (!decimal.TryParse(txt_amount.Text, out amount) || amount <= 0)
+            int amount;
+            if (!int.TryParse(txt_amount.Text, out amount) || amount <= 0)
             {
                 Error errorForm = new Error();
                 errorForm.Show();
                 this.Hide();
                 return;
             }
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ATM.mdf;Integrated Security=True;";
+
             try
             {
-                using (SqlConnection con = new SqlConnection(connectionString))
-                {
-                    con.Open();
-                    string selectQuery = "SELECT Balance FROM Users WHERE IsActive = 1";
-                    SqlCommand cmdSelect = new SqlCommand(selectQuery, con);
-                    object result = cmdSelect.ExecuteScalar();
-                    if (result == null)
-                    {
-                        Error errorForm = new Error();
-                        errorForm.Show();
-                        this.Hide();
-                        return;
-                    }
-                    decimal currentBalance = Convert.ToDecimal(result);
-                    decimal newBalance = currentBalance + amount;
-                    string updateQuery = "UPDATE Users SET Balance=@Balance WHERE IsActive = 1";
-                    SqlCommand cmdUpdate = new SqlCommand(updateQuery, con);
-                    cmdUpdate.Parameters.AddWithValue("@Balance", newBalance);
-                    cmdUpdate.ExecuteNonQuery();
+                if (DB.con.State == ConnectionState.Open)
+                    DB.con.Close();
 
-                    success successForm = new success();
-                    successForm.Show();
-                    this.Close();
+                DB.con.Open();
+
+                DB.cmd = new SqlCommand(
+                    "UPDATE Users SET Balance = Balance + @amount WHERE ID_Users = @id AND IsActive = 1",
+                    DB.con);
+                DB.cmd.Parameters.Add("@amount", SqlDbType.Int).Value = amount;
+                DB.cmd.Parameters.Add("@id", SqlDbType.Int).Value = seesion.ID_Users;
+                int rows = DB.cmd.ExecuteNonQuery();
+                DB.con.Close();
+
+                if (rows > 0)
+                {
+                    success success = new success();
+                    success.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    Error errorForm = new Error();
+                    errorForm.Show();
                 }
             }
-            catch
+            catch (Exception ex)
             {
                 Error errorForm = new Error();
                 errorForm.Show();
-                this.Hide();
+                MessageBox.Show(ex.Message);
             }
-        }  
+
+        }   
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
@@ -107,6 +108,19 @@ namespace WindowsFormsApp1
         private void guna2CirclePictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txt_amount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_amount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

@@ -63,7 +63,7 @@ namespace WindowsFormsApp1
 
             if (result != null)
             {
-              int  ID_Users = Convert.ToInt32(result);
+              seesion.ID_Users = Convert.ToInt32(result);
                 MessageBox.Show("Login Successful");
 
                 frm_main m = new frm_main();
@@ -81,6 +81,14 @@ namespace WindowsFormsApp1
         private void txtPIN_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtPIN_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

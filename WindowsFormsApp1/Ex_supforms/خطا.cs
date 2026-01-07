@@ -26,5 +26,12 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            frm_PIN_arabic error = new frm_PIN_arabic();
+            error.Show();
+            this.Hide();
+        }
     }
 }

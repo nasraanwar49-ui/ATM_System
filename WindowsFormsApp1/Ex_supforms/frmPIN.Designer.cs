@@ -67,9 +67,9 @@
             this.gunaGradientPanel1.GradientColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(48)))), ((int)(((byte)(160)))));
             this.gunaGradientPanel1.GradientColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.gunaGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.gunaGradientPanel1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.gunaGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gunaGradientPanel1.Name = "gunaGradientPanel1";
-            this.gunaGradientPanel1.Size = new System.Drawing.Size(915, 526);
+            this.gunaGradientPanel1.Size = new System.Drawing.Size(686, 427);
             this.gunaGradientPanel1.TabIndex = 0;
             this.gunaGradientPanel1.Text = "gunaGradientPanel1";
             this.gunaGradientPanel1.Click += new System.EventHandler(this.gunaGradientPanel1_Click);
@@ -91,9 +91,9 @@
             this.gunaGradientPanel2.GradientColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(48)))), ((int)(((byte)(160)))));
             this.gunaGradientPanel2.GradientColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.gunaGradientPanel2.Location = new System.Drawing.Point(0, 0);
-            this.gunaGradientPanel2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.gunaGradientPanel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gunaGradientPanel2.Name = "gunaGradientPanel2";
-            this.gunaGradientPanel2.Size = new System.Drawing.Size(915, 526);
+            this.gunaGradientPanel2.Size = new System.Drawing.Size(686, 427);
             this.gunaGradientPanel2.TabIndex = 12;
             this.gunaGradientPanel2.Text = "gunaGradientPanel2";
             this.gunaGradientPanel2.Click += new System.EventHandler(this.gunaGradientPanel2_Click);
@@ -103,10 +103,10 @@
             this.gunaPictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.IMG_3470_removebg_preview;
-            this.gunaPictureBox2.Location = new System.Drawing.Point(802, -11);
-            this.gunaPictureBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.gunaPictureBox2.Location = new System.Drawing.Point(602, -9);
+            this.gunaPictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gunaPictureBox2.Name = "gunaPictureBox2";
-            this.gunaPictureBox2.Size = new System.Drawing.Size(110, 90);
+            this.gunaPictureBox2.Size = new System.Drawing.Size(82, 73);
             this.gunaPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gunaPictureBox2.TabIndex = 14;
             this.gunaPictureBox2.TabStop = false;
@@ -116,11 +116,11 @@
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-         //  this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(384, 129);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(288, 105);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(169, 112);
+            this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
+            this.guna2PictureBox3.Size = new System.Drawing.Size(127, 91);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 12;
             this.guna2PictureBox3.TabStop = false;
@@ -131,10 +131,10 @@
             this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel2.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.gunaLabel2.Location = new System.Drawing.Point(5, 0);
-            this.gunaLabel2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.gunaLabel2.Location = new System.Drawing.Point(4, 0);
+            this.gunaLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(196, 39);
+            this.gunaLabel2.Size = new System.Drawing.Size(155, 31);
             this.gunaLabel2.TabIndex = 10;
             this.gunaLabel2.Text = "ATM System";
             // 
@@ -143,14 +143,18 @@
             this.btnPIN.BackColor = System.Drawing.Color.Transparent;
             this.btnPIN.BorderRadius = 15;
             this.btnPIN.BorderThickness = 1;
+            this.btnPIN.CheckedState.Parent = this.btnPIN;
             this.btnPIN.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnPIN.CustomImages.Parent = this.btnPIN;
             this.btnPIN.FillColor = System.Drawing.Color.White;
             this.btnPIN.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPIN.ForeColor = System.Drawing.Color.Black;
-            this.btnPIN.Location = new System.Drawing.Point(363, 370);
-            this.btnPIN.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.btnPIN.HoverState.Parent = this.btnPIN;
+            this.btnPIN.Location = new System.Drawing.Point(272, 301);
+            this.btnPIN.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnPIN.Name = "btnPIN";
-            this.btnPIN.Size = new System.Drawing.Size(190, 46);
+            this.btnPIN.ShadowDecoration.Parent = this.btnPIN;
+            this.btnPIN.Size = new System.Drawing.Size(142, 37);
             this.btnPIN.TabIndex = 9;
             this.btnPIN.Text = "Enter";
             this.btnPIN.Click += new System.EventHandler(this.btnPIN_Click);
@@ -161,10 +165,10 @@
             this.gunaLabel4.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel4.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel4.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel4.Location = new System.Drawing.Point(254, 71);
-            this.gunaLabel4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.gunaLabel4.Location = new System.Drawing.Point(190, 58);
+            this.gunaLabel4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel4.Name = "gunaLabel4";
-            this.gunaLabel4.Size = new System.Drawing.Size(357, 46);
+            this.gunaLabel4.Size = new System.Drawing.Size(286, 36);
             this.gunaLabel4.TabIndex = 8;
             this.gunaLabel4.Text = "Please Enter you PIN";
             // 
@@ -178,20 +182,25 @@
             this.txtPIN.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtPIN.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtPIN.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPIN.DisabledState.Parent = this.txtPIN;
             this.txtPIN.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPIN.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPIN.FocusedState.Parent = this.txtPIN;
             this.txtPIN.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPIN.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPIN.Location = new System.Drawing.Point(224, 250);
-            this.txtPIN.Margin = new System.Windows.Forms.Padding(5);
+            this.txtPIN.HoverState.Parent = this.txtPIN;
+            this.txtPIN.Location = new System.Drawing.Point(168, 203);
+            this.txtPIN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPIN.Name = "txtPIN";
             this.txtPIN.PasswordChar = '*';
             this.txtPIN.PlaceholderText = "";
             this.txtPIN.SelectedText = "";
-            this.txtPIN.Size = new System.Drawing.Size(456, 50);
+            this.txtPIN.ShadowDecoration.Parent = this.txtPIN;
+            this.txtPIN.Size = new System.Drawing.Size(342, 41);
             this.txtPIN.TabIndex = 7;
             this.txtPIN.UseSystemPasswordChar = true;
             this.txtPIN.TextChanged += new System.EventHandler(this.txtPIN_TextChanged);
+            this.txtPIN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPIN_KeyPress);
             // 
             // gunaPictureBox1
             // 
@@ -199,10 +208,10 @@
             this.gunaPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.Transparent;
             this.gunaPictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(-55, 189);
-            this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.gunaPictureBox1.Location = new System.Drawing.Point(-41, 154);
+            this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(526, 366);
+            this.gunaPictureBox1.Size = new System.Drawing.Size(394, 297);
             this.gunaPictureBox1.TabIndex = 13;
             this.gunaPictureBox1.TabStop = false;
             this.gunaPictureBox1.Click += new System.EventHandler(this.gunaPictureBox1_Click);
@@ -213,10 +222,10 @@
             this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.gunaLabel1.Location = new System.Drawing.Point(5, 0);
-            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.gunaLabel1.Location = new System.Drawing.Point(4, 0);
+            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(196, 39);
+            this.gunaLabel1.Size = new System.Drawing.Size(155, 31);
             this.gunaLabel1.TabIndex = 10;
             this.gunaLabel1.Text = "ATM System";
             this.gunaLabel1.Click += new System.EventHandler(this.gunaLabel1_Click);
@@ -226,14 +235,18 @@
             this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button5.BorderRadius = 15;
             this.guna2Button5.BorderThickness = 1;
+            this.guna2Button5.CheckedState.Parent = this.guna2Button5;
             this.guna2Button5.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.CustomImages.Parent = this.guna2Button5;
             this.guna2Button5.FillColor = System.Drawing.Color.Thistle;
             this.guna2Button5.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button5.Location = new System.Drawing.Point(327, 306);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.guna2Button5.HoverState.Parent = this.guna2Button5;
+            this.guna2Button5.Location = new System.Drawing.Point(245, 249);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(190, 46);
+            this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
+            this.guna2Button5.Size = new System.Drawing.Size(142, 37);
             this.guna2Button5.TabIndex = 9;
             this.guna2Button5.Text = "Enter";
             // 
@@ -243,10 +256,10 @@
             this.gunaLabel3.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel3.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel3.ForeColor = System.Drawing.Color.Black;
-            this.gunaLabel3.Location = new System.Drawing.Point(235, 117);
-            this.gunaLabel3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.gunaLabel3.Location = new System.Drawing.Point(176, 95);
+            this.gunaLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(357, 46);
+            this.gunaLabel3.Size = new System.Drawing.Size(286, 36);
             this.gunaLabel3.TabIndex = 8;
             this.gunaLabel3.Text = "Please Enter you PIN";
             // 
@@ -260,17 +273,22 @@
             this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FillColor = System.Drawing.Color.Thistle;
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(200, 249);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(5);
+            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
+            this.guna2TextBox1.Location = new System.Drawing.Point(150, 202);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(456, 50);
+            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
+            this.guna2TextBox1.Size = new System.Drawing.Size(342, 41);
             this.guna2TextBox1.TabIndex = 7;
             // 
             // guna2PictureBox1
@@ -278,23 +296,23 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-          //  this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(318, 380);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(238, 309);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(249, 175);
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(187, 142);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 11;
             this.guna2PictureBox1.TabStop = false;
             // 
             // frmPIN
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(915, 526);
+            this.ClientSize = new System.Drawing.Size(686, 427);
             this.Controls.Add(this.gunaGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "frmPIN";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPIN";

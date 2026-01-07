@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DB.cs" />
+    <Compile Include="seesion.cs" />
     <Compile Include="Sup_forms\ChangePinArabic.cs">
       <SubType>Form</SubType>
     </Compile>
