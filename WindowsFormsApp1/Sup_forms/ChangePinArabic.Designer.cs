@@ -187,13 +187,16 @@
             this.txtConfirmPass.HoverState.Parent = this.txtConfirmPass;
             this.txtConfirmPass.Location = new System.Drawing.Point(403, 280);
             this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(5);
+            this.txtConfirmPass.MaxLength = 4;
             this.txtConfirmPass.Name = "txtConfirmPass";
             this.txtConfirmPass.PasswordChar = '\0';
             this.txtConfirmPass.PlaceholderText = "";
+            this.txtConfirmPass.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtConfirmPass.SelectedText = "";
             this.txtConfirmPass.ShadowDecoration.Parent = this.txtConfirmPass;
             this.txtConfirmPass.Size = new System.Drawing.Size(129, 27);
             this.txtConfirmPass.TabIndex = 21;
+            this.txtConfirmPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtConfirmPass_KeyPress);
             // 
             // txtNewPass
             // 
@@ -213,13 +216,16 @@
             this.txtNewPass.HoverState.Parent = this.txtNewPass;
             this.txtNewPass.Location = new System.Drawing.Point(403, 220);
             this.txtNewPass.Margin = new System.Windows.Forms.Padding(5);
+            this.txtNewPass.MaxLength = 4;
             this.txtNewPass.Name = "txtNewPass";
             this.txtNewPass.PasswordChar = '\0';
             this.txtNewPass.PlaceholderText = "";
+            this.txtNewPass.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtNewPass.SelectedText = "";
             this.txtNewPass.ShadowDecoration.Parent = this.txtNewPass;
             this.txtNewPass.Size = new System.Drawing.Size(129, 27);
             this.txtNewPass.TabIndex = 20;
+            this.txtNewPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNewPass_KeyPress);
             // 
             // txtOldPass
             // 
@@ -239,13 +245,16 @@
             this.txtOldPass.HoverState.Parent = this.txtOldPass;
             this.txtOldPass.Location = new System.Drawing.Point(403, 162);
             this.txtOldPass.Margin = new System.Windows.Forms.Padding(5);
+            this.txtOldPass.MaxLength = 4;
             this.txtOldPass.Name = "txtOldPass";
             this.txtOldPass.PasswordChar = '\0';
             this.txtOldPass.PlaceholderText = "";
+            this.txtOldPass.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtOldPass.SelectedText = "";
             this.txtOldPass.ShadowDecoration.Parent = this.txtOldPass;
             this.txtOldPass.Size = new System.Drawing.Size(129, 27);
             this.txtOldPass.TabIndex = 19;
+            this.txtOldPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtOldPass_KeyPress);
             // 
             // guna2Button2
             // 

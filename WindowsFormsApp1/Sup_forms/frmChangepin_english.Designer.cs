@@ -147,8 +147,9 @@
             this.txtConfirmPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtConfirmPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtConfirmPass.HoverState.Parent = this.txtConfirmPass;
-            this.txtConfirmPass.Location = new System.Drawing.Point(293, 286);
+            this.txtConfirmPass.Location = new System.Drawing.Point(281, 286);
             this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(5);
+            this.txtConfirmPass.MaxLength = 4;
             this.txtConfirmPass.Name = "txtConfirmPass";
             this.txtConfirmPass.PasswordChar = '\0';
             this.txtConfirmPass.PlaceholderText = "";
@@ -156,6 +157,7 @@
             this.txtConfirmPass.ShadowDecoration.Parent = this.txtConfirmPass;
             this.txtConfirmPass.Size = new System.Drawing.Size(141, 27);
             this.txtConfirmPass.TabIndex = 21;
+            this.txtConfirmPass.TextChanged += new System.EventHandler(this.txtConfirmPass_TextChanged);
             // 
             // txtNewPass
             // 
@@ -173,8 +175,9 @@
             this.txtNewPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNewPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNewPass.HoverState.Parent = this.txtNewPass;
-            this.txtNewPass.Location = new System.Drawing.Point(293, 223);
+            this.txtNewPass.Location = new System.Drawing.Point(281, 222);
             this.txtNewPass.Margin = new System.Windows.Forms.Padding(5);
+            this.txtNewPass.MaxLength = 4;
             this.txtNewPass.Name = "txtNewPass";
             this.txtNewPass.PasswordChar = '\0';
             this.txtNewPass.PlaceholderText = "";
@@ -182,6 +185,7 @@
             this.txtNewPass.ShadowDecoration.Parent = this.txtNewPass;
             this.txtNewPass.Size = new System.Drawing.Size(141, 27);
             this.txtNewPass.TabIndex = 20;
+            this.txtNewPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNewPass_KeyPress);
             // 
             // txtOldPass
             // 
@@ -199,8 +203,9 @@
             this.txtOldPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtOldPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtOldPass.HoverState.Parent = this.txtOldPass;
-            this.txtOldPass.Location = new System.Drawing.Point(293, 155);
+            this.txtOldPass.Location = new System.Drawing.Point(281, 155);
             this.txtOldPass.Margin = new System.Windows.Forms.Padding(5);
+            this.txtOldPass.MaxLength = 4;
             this.txtOldPass.Name = "txtOldPass";
             this.txtOldPass.PasswordChar = '\0';
             this.txtOldPass.PlaceholderText = "";
@@ -208,41 +213,45 @@
             this.txtOldPass.ShadowDecoration.Parent = this.txtOldPass;
             this.txtOldPass.Size = new System.Drawing.Size(141, 27);
             this.txtOldPass.TabIndex = 19;
+            this.txtOldPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtOldPass_KeyPress);
             // 
             // guna2HtmlLabel4
             // 
+            this.guna2HtmlLabel4.AutoSize = false;
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(59, 286);
             this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(165, 25);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(214, 25);
             this.guna2HtmlLabel4.TabIndex = 18;
             this.guna2HtmlLabel4.Text = "Confirm New PIN :";
             // 
             // guna2HtmlLabel3
             // 
+            this.guna2HtmlLabel3.AutoSize = false;
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(83, 222);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(59, 222);
             this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(144, 25);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(197, 25);
             this.guna2HtmlLabel3.TabIndex = 17;
             this.guna2HtmlLabel3.Text = "Enter New PIN :";
             this.guna2HtmlLabel3.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
             // 
             // guna2HtmlLabel2
             // 
+            this.guna2HtmlLabel2.AutoSize = false;
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(98, 155);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(59, 155);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(131, 25);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(181, 25);
             this.guna2HtmlLabel2.TabIndex = 16;
             this.guna2HtmlLabel2.Text = "Enter old PIN :";
             this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);

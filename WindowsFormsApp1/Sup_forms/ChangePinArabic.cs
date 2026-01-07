@@ -117,6 +117,8 @@ namespace WindowsFormsApp1
 
                 SaveNewPassToDB();
                 MessageBox.Show("تم تغيير كلمة السر بنجاح", "نجاح", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                frm_PIN_arabic frm = new frm_PIN_arabic();
+                frm.Show();
                 this.Close();
             }
             catch (Exception ex)
@@ -139,7 +141,7 @@ namespace WindowsFormsApp1
         private void guna2Button2_Click(object sender, EventArgs e)
         {
 
-            this.Close();
+            Application.Exit();
         }
 
 
@@ -168,5 +170,29 @@ namespace WindowsFormsApp1
         private void guna2HtmlLabel3_Click(object sender, EventArgs e) { }
         private void label1_Click(object sender, EventArgs e) { }
         private void label2_Click(object sender, EventArgs e) { }
+
+        private void txtOldPass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtNewPass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtConfirmPass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

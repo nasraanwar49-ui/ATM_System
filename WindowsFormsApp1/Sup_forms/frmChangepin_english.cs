@@ -116,6 +116,9 @@ namespace WindowsFormsApp1
 
                 SaveNewPassToDB();
                 MessageBox.Show("PIN Changed Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                frmPIN frm = new frmPIN();
+                frm.Show();
                 this.Close();
             }
             catch (Exception ex)
@@ -137,7 +140,7 @@ namespace WindowsFormsApp1
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
 
@@ -163,5 +166,26 @@ namespace WindowsFormsApp1
         private void gunaGradientPanel1_Click(object sender, EventArgs e) { }
         private void guna2HtmlLabel2_Click(object sender, EventArgs e) { }
         private void guna2HtmlLabel3_Click(object sender, EventArgs e) { }
+
+        private void txtOldPass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtNewPass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtConfirmPass_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
