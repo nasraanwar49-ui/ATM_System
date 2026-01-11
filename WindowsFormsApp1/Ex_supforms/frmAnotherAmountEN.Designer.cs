@@ -60,8 +60,9 @@
             this.gunaGradientPanel1.GradientColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(48)))), ((int)(((byte)(160)))));
             this.gunaGradientPanel1.GradientColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.gunaGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.gunaGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gunaGradientPanel1.Name = "gunaGradientPanel1";
-            this.gunaGradientPanel1.Size = new System.Drawing.Size(656, 405);
+            this.gunaGradientPanel1.Size = new System.Drawing.Size(915, 526);
             this.gunaGradientPanel1.TabIndex = 1;
             this.gunaGradientPanel1.Text = "gunaGradientPanel1";
             // 
@@ -75,14 +76,14 @@
             this.txtAnotherAmountER.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtAnotherAmountER.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtAnotherAmountER.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtAnotherAmountER.Location = new System.Drawing.Point(181, 223);
-            this.txtAnotherAmountER.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAnotherAmountER.Location = new System.Drawing.Point(261, 312);
+            this.txtAnotherAmountER.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtAnotherAmountER.MaxLength = 5;
             this.txtAnotherAmountER.Name = "txtAnotherAmountER";
             this.txtAnotherAmountER.PasswordChar = '\0';
             this.txtAnotherAmountER.Radius = 15;
             this.txtAnotherAmountER.SelectedText = "";
-            this.txtAnotherAmountER.Size = new System.Drawing.Size(295, 38);
+            this.txtAnotherAmountER.Size = new System.Drawing.Size(393, 47);
             this.txtAnotherAmountER.TabIndex = 15;
             this.txtAnotherAmountER.TextChanged += new System.EventHandler(this.txtAnotherAmountER_TextChanged);
             this.txtAnotherAmountER.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAnotherAmountER_KeyPress);
@@ -93,10 +94,9 @@
             this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel2.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel2.Location = new System.Drawing.Point(164, 106);
-            this.gunaLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.gunaLabel2.Location = new System.Drawing.Point(238, 108);
             this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(349, 35);
+            this.gunaLabel2.Size = new System.Drawing.Size(438, 42);
             this.gunaLabel2.TabIndex = 14;
             this.gunaLabel2.Text = "Enter the required amount";
             // 
@@ -105,11 +105,12 @@
             this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.IMG_3470_removebg_preview;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(560, -10);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(801, 0);
+            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox2.ShadowDecoration.Parent = this.guna2CirclePictureBox2;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(96, 86);
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(110, 90);
             this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox2.TabIndex = 13;
             this.guna2CirclePictureBox2.TabStop = false;
@@ -120,9 +121,10 @@
             this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.gunaLabel1.Location = new System.Drawing.Point(-6, 0);
+            this.gunaLabel1.Location = new System.Drawing.Point(1, 5);
+            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(155, 31);
+            this.gunaLabel1.Size = new System.Drawing.Size(196, 39);
             this.gunaLabel1.TabIndex = 11;
             this.gunaLabel1.Text = "ATM System";
             // 
@@ -136,10 +138,11 @@
             this.btnEnterER.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnterER.ForeColor = System.Drawing.Color.Black;
             this.btnEnterER.HoverState.Parent = this.btnEnterER;
-            this.btnEnterER.Location = new System.Drawing.Point(280, 281);
+            this.btnEnterER.Location = new System.Drawing.Point(393, 375);
+            this.btnEnterER.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEnterER.Name = "btnEnterER";
             this.btnEnterER.ShadowDecoration.Parent = this.btnEnterER;
-            this.btnEnterER.Size = new System.Drawing.Size(97, 40);
+            this.btnEnterER.Size = new System.Drawing.Size(129, 49);
             this.btnEnterER.TabIndex = 2;
             this.btnEnterER.Text = "Enter";
             this.btnEnterER.Click += new System.EventHandler(this.btnEnterER_Click);
@@ -152,10 +155,11 @@
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.withdraw_icon_line_icon_for_your_website_mobile_presentation_and_logo_design_vector_removebg_preview;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(280, 143);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(382, 176);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(83, 74);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(151, 119);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 6;
             this.guna2PictureBox2.TabStop = false;
@@ -165,21 +169,23 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(47, 134);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(63, 165);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(410, 310);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(547, 382);
             this.guna2PictureBox1.TabIndex = 5;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // frmAnotherAmountEN
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(656, 405);
+            this.ClientSize = new System.Drawing.Size(915, 526);
             this.Controls.Add(this.gunaGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmAnotherAmountEN";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";

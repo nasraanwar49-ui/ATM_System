@@ -103,10 +103,10 @@
             this.gunaPictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.IMG_3470_removebg_preview;
-            this.gunaPictureBox2.Location = new System.Drawing.Point(803, -11);
+            this.gunaPictureBox2.Location = new System.Drawing.Point(801, 0);
             this.gunaPictureBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.gunaPictureBox2.Name = "gunaPictureBox2";
-            this.gunaPictureBox2.Size = new System.Drawing.Size(109, 90);
+            this.gunaPictureBox2.Size = new System.Drawing.Size(110, 90);
             this.gunaPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gunaPictureBox2.TabIndex = 14;
             this.gunaPictureBox2.TabStop = false;
@@ -116,11 +116,11 @@
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.Location = new System.Drawing.Point(384, 129);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(373, 121);
             this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
-            this.guna2PictureBox3.Size = new System.Drawing.Size(169, 112);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(193, 128);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 12;
             this.guna2PictureBox3.TabStop = false;
@@ -131,7 +131,7 @@
             this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel2.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.gunaLabel2.Location = new System.Drawing.Point(5, 0);
+            this.gunaLabel2.Location = new System.Drawing.Point(1, 5);
             this.gunaLabel2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(196, 39);
@@ -150,7 +150,7 @@
             this.btnPIN.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPIN.ForeColor = System.Drawing.Color.Black;
             this.btnPIN.HoverState.Parent = this.btnPIN;
-            this.btnPIN.Location = new System.Drawing.Point(363, 370);
+            this.btnPIN.Location = new System.Drawing.Point(363, 345);
             this.btnPIN.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnPIN.Name = "btnPIN";
             this.btnPIN.ShadowDecoration.Parent = this.btnPIN;
@@ -165,7 +165,7 @@
             this.gunaLabel4.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel4.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel4.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel4.Location = new System.Drawing.Point(253, 71);
+            this.gunaLabel4.Location = new System.Drawing.Point(279, 71);
             this.gunaLabel4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.gunaLabel4.Name = "gunaLabel4";
             this.gunaLabel4.Size = new System.Drawing.Size(357, 46);
@@ -189,9 +189,8 @@
             this.txtPIN.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPIN.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPIN.HoverState.Parent = this.txtPIN;
-            this.txtPIN.Location = new System.Drawing.Point(224, 250);
-            this.txtPIN.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.txtPIN.MaxLength = 4;
+            this.txtPIN.Location = new System.Drawing.Point(229, 250);
+            this.txtPIN.Margin = new System.Windows.Forms.Padding(5);
             this.txtPIN.Name = "txtPIN";
             this.txtPIN.PasswordChar = '*';
             this.txtPIN.PlaceholderText = "";
@@ -209,10 +208,10 @@
             this.gunaPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.Transparent;
             this.gunaPictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(-55, 190);
+            this.gunaPictureBox1.Location = new System.Drawing.Point(63, 165);
             this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(525, 366);
+            this.gunaPictureBox1.Size = new System.Drawing.Size(547, 382);
             this.gunaPictureBox1.TabIndex = 13;
             this.gunaPictureBox1.TabStop = false;
             this.gunaPictureBox1.Click += new System.EventHandler(this.gunaPictureBox1_Click);
@@ -283,7 +282,7 @@
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
             this.guna2TextBox1.Location = new System.Drawing.Point(200, 249);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(5);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";

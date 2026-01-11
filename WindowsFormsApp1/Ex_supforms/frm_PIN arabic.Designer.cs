@@ -85,7 +85,6 @@
             this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
             this.guna2TextBox2.Location = new System.Drawing.Point(237, 240);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5);
-            this.guna2TextBox2.MaxLength = 4;
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '*';
             this.guna2TextBox2.PlaceholderText = "";
@@ -102,7 +101,7 @@
             this.gunaPictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.IMG_3470_removebg_preview;
-            this.gunaPictureBox2.Location = new System.Drawing.Point(806, 0);
+            this.gunaPictureBox2.Location = new System.Drawing.Point(801, 0);
             this.gunaPictureBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.gunaPictureBox2.Name = "gunaPictureBox2";
             this.gunaPictureBox2.Size = new System.Drawing.Size(110, 90);
@@ -130,7 +129,7 @@
             this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel2.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.gunaLabel2.Location = new System.Drawing.Point(8, 11);
+            this.gunaLabel2.Location = new System.Drawing.Point(1, 5);
             this.gunaLabel2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(196, 39);
@@ -177,10 +176,10 @@
             this.gunaPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.Transparent;
             this.gunaPictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(15, 211);
+            this.gunaPictureBox1.Location = new System.Drawing.Point(63, 165);
             this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(526, 366);
+            this.gunaPictureBox1.Size = new System.Drawing.Size(547, 382);
             this.gunaPictureBox1.TabIndex = 14;
             this.gunaPictureBox1.TabStop = false;
             // 

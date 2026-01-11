@@ -80,15 +80,16 @@
             this.gunaGradientPanel1.Controls.Add(this.btnaccebte);
             this.gunaGradientPanel1.Controls.Add(this.guna2PictureBox1);
             this.gunaGradientPanel1.Controls.Add(this.tableLayoutPanel1);
+            this.gunaGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaGradientPanel1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaGradientPanel1.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(48)))), ((int)(((byte)(160)))));
             this.gunaGradientPanel1.GradientColor2 = System.Drawing.Color.DarkViolet;
             this.gunaGradientPanel1.GradientColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(48)))), ((int)(((byte)(160)))));
             this.gunaGradientPanel1.GradientColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.gunaGradientPanel1.Location = new System.Drawing.Point(-1, -1);
+            this.gunaGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.gunaGradientPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gunaGradientPanel1.Name = "gunaGradientPanel1";
-            this.gunaGradientPanel1.Size = new System.Drawing.Size(804, 423);
+            this.gunaGradientPanel1.Size = new System.Drawing.Size(915, 526);
             this.gunaGradientPanel1.TabIndex = 0;
             this.gunaGradientPanel1.Text = "gunaGradientPanel1";
             this.gunaGradientPanel1.Click += new System.EventHandler(this.gunaGradientPanel1_Click);
@@ -99,7 +100,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(582, 280);
+            this.label4.Location = new System.Drawing.Point(731, 296);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(155, 25);
             this.label4.TabIndex = 29;
@@ -111,7 +112,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(581, 220);
+            this.label3.Location = new System.Drawing.Point(730, 236);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(157, 25);
             this.label3.TabIndex = 28;
@@ -123,7 +124,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(579, 162);
+            this.label2.Location = new System.Drawing.Point(728, 178);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 25);
             this.label2.TabIndex = 27;
@@ -146,12 +147,12 @@
             // guna2CirclePictureBox1
             // 
             this.guna2CirclePictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.IMG_3470_removebg_preview;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(625, 4);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(801, 0);
             this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(183, 102);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(110, 90);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 25;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -160,12 +161,12 @@
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(16, 15);
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(1, 5);
             this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(150, 32);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(178, 39);
             this.guna2HtmlLabel5.TabIndex = 24;
             this.guna2HtmlLabel5.Text = "ATM System";
             // 
@@ -185,16 +186,15 @@
             this.txtConfirmPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtConfirmPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtConfirmPass.HoverState.Parent = this.txtConfirmPass;
-            this.txtConfirmPass.Location = new System.Drawing.Point(403, 280);
+            this.txtConfirmPass.Location = new System.Drawing.Point(532, 296);
             this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(5);
-            this.txtConfirmPass.MaxLength = 4;
             this.txtConfirmPass.Name = "txtConfirmPass";
             this.txtConfirmPass.PasswordChar = '\0';
             this.txtConfirmPass.PlaceholderText = "";
             this.txtConfirmPass.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtConfirmPass.SelectedText = "";
             this.txtConfirmPass.ShadowDecoration.Parent = this.txtConfirmPass;
-            this.txtConfirmPass.Size = new System.Drawing.Size(129, 27);
+            this.txtConfirmPass.Size = new System.Drawing.Size(149, 27);
             this.txtConfirmPass.TabIndex = 21;
             this.txtConfirmPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtConfirmPass_KeyPress);
             // 
@@ -214,16 +214,15 @@
             this.txtNewPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNewPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNewPass.HoverState.Parent = this.txtNewPass;
-            this.txtNewPass.Location = new System.Drawing.Point(403, 220);
+            this.txtNewPass.Location = new System.Drawing.Point(532, 236);
             this.txtNewPass.Margin = new System.Windows.Forms.Padding(5);
-            this.txtNewPass.MaxLength = 4;
             this.txtNewPass.Name = "txtNewPass";
             this.txtNewPass.PasswordChar = '\0';
             this.txtNewPass.PlaceholderText = "";
             this.txtNewPass.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtNewPass.SelectedText = "";
             this.txtNewPass.ShadowDecoration.Parent = this.txtNewPass;
-            this.txtNewPass.Size = new System.Drawing.Size(129, 27);
+            this.txtNewPass.Size = new System.Drawing.Size(149, 27);
             this.txtNewPass.TabIndex = 20;
             this.txtNewPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNewPass_KeyPress);
             // 
@@ -243,16 +242,15 @@
             this.txtOldPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtOldPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtOldPass.HoverState.Parent = this.txtOldPass;
-            this.txtOldPass.Location = new System.Drawing.Point(403, 162);
+            this.txtOldPass.Location = new System.Drawing.Point(532, 178);
             this.txtOldPass.Margin = new System.Windows.Forms.Padding(5);
-            this.txtOldPass.MaxLength = 4;
             this.txtOldPass.Name = "txtOldPass";
             this.txtOldPass.PasswordChar = '\0';
             this.txtOldPass.PlaceholderText = "";
             this.txtOldPass.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtOldPass.SelectedText = "";
             this.txtOldPass.ShadowDecoration.Parent = this.txtOldPass;
-            this.txtOldPass.Size = new System.Drawing.Size(129, 27);
+            this.txtOldPass.Size = new System.Drawing.Size(149, 27);
             this.txtOldPass.TabIndex = 19;
             this.txtOldPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtOldPass_KeyPress);
             // 
@@ -267,7 +265,7 @@
             this.guna2Button2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(588, 341);
+            this.guna2Button2.Location = new System.Drawing.Point(728, 389);
             this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
@@ -287,7 +285,7 @@
             this.btnaccebte.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnaccebte.ForeColor = System.Drawing.Color.Black;
             this.btnaccebte.HoverState.Parent = this.btnaccebte;
-            this.btnaccebte.Location = new System.Drawing.Point(440, 341);
+            this.btnaccebte.Location = new System.Drawing.Point(561, 389);
             this.btnaccebte.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnaccebte.Name = "btnaccebte";
             this.btnaccebte.ShadowDecoration.Parent = this.btnaccebte;
@@ -300,12 +298,12 @@
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(316, 220);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(63, 165);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(493, 551);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(464, 538);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.guna2PictureBox1.TabIndex = 23;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
@@ -329,7 +327,7 @@
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton8, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton1, 0, 0);
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(94, 143);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(138, 165);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
@@ -576,7 +574,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(801, 418);
+            this.ClientSize = new System.Drawing.Size(915, 526);
             this.Controls.Add(this.gunaGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
