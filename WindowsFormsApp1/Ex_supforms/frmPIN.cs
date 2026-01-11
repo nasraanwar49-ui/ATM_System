@@ -87,6 +87,7 @@ namespace WindowsFormsApp1
 
 
 
+
         }
 
         private void txtPIN_TextChanged(object sender, EventArgs e)
