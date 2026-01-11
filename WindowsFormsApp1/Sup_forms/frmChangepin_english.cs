@@ -68,17 +68,28 @@ namespace WindowsFormsApp1
 
         private void SaveNewPassToDB()
         {
-            if (DB.con.State == ConnectionState.Closed) DB.con.Open();
+            try
+            {
+                if (DB.con.State == ConnectionState.Closed) DB.con.Open();
 
-            string query = "UPDATE [USERS] SET PIN=@new WHERE IsActive=1";
+                string query = "UPDATE [USERS] SET PIN=@new WHERE IsActive=1";
 
-            SqlCommand updateCmd = new SqlCommand(query, DB.con);
+                SqlCommand updateCmd = new SqlCommand(query, DB.con);
 
-            updateCmd.Parameters.AddWithValue("@new", txtNewPass.Text);
+                updateCmd.Parameters.AddWithValue("@new", txtNewPass.Text);
 
-            updateCmd.ExecuteNonQuery();
+                updateCmd.ExecuteNonQuery();
 
-            DB.con.Close();
+                DB.con.Close();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                Error errorForm = new Error();
+                errorForm.Show();
+            }
+
         }
 
 

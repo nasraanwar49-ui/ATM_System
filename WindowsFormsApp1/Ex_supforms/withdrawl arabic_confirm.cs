@@ -82,38 +82,48 @@ namespace WindowsFormsApp1
                 this.Hide();
                 return;
             }
-
             // THE QUERY
-            DB.con.Open();
+            try
+            {
+                DB.con.Open();
 
 
-            SqlCommand cmd = new SqlCommand(
-                @"UPDATE [USERS]
+                SqlCommand cmd = new SqlCommand(
+                    @"UPDATE [USERS]
           SET Balance = Balance - @amount
           WHERE IsActive = 1 AND Balance >= @amount",
-                DB.con);
+                    DB.con);
 
-            cmd.Parameters.AddWithValue("@amount", amount);
+                cmd.Parameters.AddWithValue("@amount", amount);
 
-            int rows = cmd.ExecuteNonQuery();
+                int rows = cmd.ExecuteNonQuery();
 
-            DB.con.Close();
+                DB.con.Close();
 
-            // IF NOT ENOUGH CASH
-            if (rows == 0)
-            {
-                MessageBox.Show("لا يوجد لذيك مال كافي");
-                خطا error = new خطا();
-                error.Show();
-                this.Hide();
+                // IF NOT ENOUGH CASH
+                if (rows == 0)
+                {
+                    MessageBox.Show("لا يوجد لذيك مال كافي");
+                    خطا error = new خطا();
+                    error.Show();
+                    this.Hide();
+                }
+                // IF SUCCESS 
+                else
+                {
+                    نجاح success = new نجاح();
+                    success.Show();
+                    this.Close();
+                }
             }
-            // IF SUCCESS 
-            else
+            catch (Exception ex)
             {
-                نجاح success = new نجاح();
-                success.Show();
-                this.Close();
+                MessageBox.Show(ex.Message);
+                Error errorForm = new Error();
+                errorForm.Show();
             }
+
+
         }
 
         private void btnNo_Click(object sender, EventArgs e)

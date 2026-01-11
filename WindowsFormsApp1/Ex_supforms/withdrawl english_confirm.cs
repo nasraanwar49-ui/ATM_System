@@ -73,38 +73,48 @@ namespace WindowsFormsApp1
             }
 
             // THE QUERY
-            DB.con.Open();
+            try
+            {
+                DB.con.Open();
 
-            
-            SqlCommand cmd = new SqlCommand(
-                @"UPDATE [USERS]
+
+                SqlCommand cmd = new SqlCommand(
+                    @"UPDATE [USERS]
           SET Balance = Balance - @amount
           WHERE IsActive = 1 AND Balance >= @amount",
-                DB.con);
+                    DB.con);
 
-            cmd.Parameters.AddWithValue("@amount", amount);
+                cmd.Parameters.AddWithValue("@amount", amount);
 
-            int rows = cmd.ExecuteNonQuery();
+                int rows = cmd.ExecuteNonQuery();
 
 
-            DB.con.Close();
-            
+                DB.con.Close();
 
-            // IF NOT ENOUGH CASH
-            if (rows == 0)
-            {
-                MessageBox.Show("NOT enough cash");
-                Error errorEN = new Error();
-                errorEN.Show();
-                this.Hide();
+
+                // IF NOT ENOUGH CASH
+                if (rows == 0)
+                {
+                    MessageBox.Show("NOT enough cash");
+                    Error errorEN = new Error();
+                    errorEN.Show();
+                    this.Hide();
+                }
+                // IF SUCCESS 
+                else
+                {
+                    success successEN = new success();
+                    successEN.Show();
+                    this.Close();
+                }
             }
-            // IF SUCCESS 
-            else
+            catch (Exception ex)
             {
-                success successEN = new success();
-                successEN.Show();
-                this.Close();
+                MessageBox.Show(ex.Message);
+                Error errorForm = new Error();
+                errorForm.Show();
             }
+
         }
 
         private void txtTotalAmount_Click(object sender, EventArgs e)

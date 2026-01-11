@@ -99,5 +99,10 @@ namespace WindowsFormsApp1
                 e.Handled = true;
             }
         }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

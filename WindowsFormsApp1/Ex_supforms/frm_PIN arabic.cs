@@ -36,31 +36,41 @@ namespace WindowsFormsApp1
 
         private void txtPIN_Click(object sender, EventArgs e)
         {
-            DB.con.Open();
-
-            DB.cmd = new SqlCommand(
-                "select ID_Users, Balance from Users Where PIN = @pin and IsActive = 1", DB.con);
-
-            DB.cmd.Parameters.AddWithValue("@pin", guna2TextBox2.Text);
-
-
-            object result = DB.cmd.ExecuteScalar();
-
-            DB.con.Close();
-
-            if (result != null)
+            try
             {
-                seesion.ID_Users = Convert.ToInt32(result);
-                MessageBox.Show("Login Successful");
+                DB.con.Open();
 
-                frm_main_arabic frm_main_ = new frm_main_arabic();
-                frm_main_.Show();
-                this.Hide();
+                DB.cmd = new SqlCommand(
+                    "select ID_Users, Balance from Users Where PIN = @pin and IsActive = 1", DB.con);
+
+                DB.cmd.Parameters.AddWithValue("@pin", guna2TextBox2.Text);
+
+
+                object result = DB.cmd.ExecuteScalar();
+
+                DB.con.Close();
+
+                if (result != null)
+                {
+                    seesion.ID_Users = Convert.ToInt32(result);
+                    MessageBox.Show("Login Successful");
+
+                    frm_main_arabic frm_main_ = new frm_main_arabic();
+                    frm_main_.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Wrong PIN");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Wrong PIN");
+                MessageBox.Show(ex.Message);
+                Error errorForm = new Error();
+                errorForm.Show();
             }
+
 
 
         }

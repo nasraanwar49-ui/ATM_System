@@ -37,25 +37,35 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DB.con.Open();
-
-            DB.cmd = new SqlCommand("SELECT Balance FROM Users WHERE ID_Users = @id", DB.con);
-
-            int ID_Users = 1;
-
-            DB.cmd.Parameters.Add("@id", SqlDbType.Int).Value = ID_Users;
-            object result = DB.cmd.ExecuteScalar();
-
-            DB.con.Close();
-
-            if (result != null)
+            try
             {
-                lblBalance.Text = result.ToString();
+                DB.con.Open();
+
+                DB.cmd = new SqlCommand("SELECT Balance FROM Users WHERE ID_Users = @id", DB.con);
+
+                int ID_Users = 1;
+
+                DB.cmd.Parameters.Add("@id", SqlDbType.Int).Value = ID_Users;
+                object result = DB.cmd.ExecuteScalar();
+
+                DB.con.Close();
+
+                if (result != null)
+                {
+                    lblBalance.Text = result.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Account Number or PIN");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Invalid Account Number or PIN");
+                MessageBox.Show(ex.Message);
+                Error errorForm = new Error();
+                errorForm.Show();
             }
+
         }
       private void btnYes_Click(object sender, EventArgs e)
         {
