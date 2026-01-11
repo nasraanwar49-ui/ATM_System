@@ -126,10 +126,10 @@ namespace WindowsFormsApp1
 
 
                 SaveNewPassToDB();
-                MessageBox.Show("PIN Changed Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
 
-                frmPIN frm = new frmPIN();
-                frm.Show();
+                success successEN = new success();
+                successEN.Show();
                 this.Close();
             }
             catch (Exception ex)

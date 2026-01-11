@@ -18,9 +18,9 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             string total = Convert.ToString(Convert.ToInt32(Amount) + Convert.ToInt32(Commission));
-            txtAmount.Text = Amount + ("YR");
-            txtCommissionAR.Text = Commission+("YR");
-            txtTotalAmountAR.Text = total ;
+            lblAmountResult.Text = Amount + ("YR");
+            lblCommissionResultAR.Text = Commission+("YR");
+            lblTotalAmountResult.Text = total ;
 
            
 
@@ -59,13 +59,13 @@ namespace WindowsFormsApp1
         private void btnYes_Click(object sender, EventArgs e)
         {
             // TEST IF THERE IS NUMBER OR NO 
-            if (string.IsNullOrWhiteSpace(txtTotalAmountAR.Text))
+            if (string.IsNullOrWhiteSpace(lblTotalAmountResult.Text))
             {
                 MessageBox.Show("الرجاء ادخال المبلغ اولا");
                 return;
             }
 
-            int amount = int.Parse(txtTotalAmountAR.Text);
+            int amount = int.Parse(lblTotalAmountResult.Text);
             // TEST IF THE NUMBER BIGER THEN 0
             if (amount <= 0)
             {

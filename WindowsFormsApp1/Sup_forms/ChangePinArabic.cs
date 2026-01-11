@@ -126,9 +126,9 @@ namespace WindowsFormsApp1
 
 
                 SaveNewPassToDB();
-                MessageBox.Show("تم تغيير كلمة السر بنجاح", "نجاح", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                frm_PIN_arabic frm = new frm_PIN_arabic();
-                frm.Show();
+                
+                نجاح success = new نجاح();
+                success.Show();
                 this.Close();
             }
             catch (Exception ex)

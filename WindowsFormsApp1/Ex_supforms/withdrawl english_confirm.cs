@@ -17,9 +17,9 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             string total = Convert.ToString(Convert.ToInt32(Amount) + Convert.ToInt32(Commission));
-            txtAmount.Text = Amount + ("YR");
-            txtcommission.Text = Commission + ("YR");
-            txtTotalAmount.Text = total ;
+            lblAmountResult.Text = Amount + ("YR");
+            lblcommissionResult.Text = Commission + ("YR");
+            lblTotalAmountResult.Text = total ;
         }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
@@ -50,13 +50,13 @@ namespace WindowsFormsApp1
         private void btnYes_Click(object sender, EventArgs e)
         {
             // TEST IF THERE IS NUMBER OR NO 
-            if (string.IsNullOrWhiteSpace(txtTotalAmount.Text))
+            if (string.IsNullOrWhiteSpace(lblTotalAmountResult.Text))
             {
                 MessageBox.Show("enter Number first ");
                 return;
             }
 
-            int amount = int.Parse(txtTotalAmount.Text);
+            int amount = int.Parse(lblTotalAmountResult.Text);
             // TEST IF THE NUMBER BIGER THEN 0
             if (amount <= 0)
             {
