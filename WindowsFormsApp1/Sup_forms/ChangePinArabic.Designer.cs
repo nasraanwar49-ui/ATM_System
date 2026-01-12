@@ -78,8 +78,8 @@
             this.gunaGradientPanel1.Controls.Add(this.txtOldPass);
             this.gunaGradientPanel1.Controls.Add(this.guna2Button2);
             this.gunaGradientPanel1.Controls.Add(this.btnaccebte);
-            this.gunaGradientPanel1.Controls.Add(this.guna2PictureBox1);
             this.gunaGradientPanel1.Controls.Add(this.tableLayoutPanel1);
+            this.gunaGradientPanel1.Controls.Add(this.guna2PictureBox1);
             this.gunaGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaGradientPanel1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaGradientPanel1.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(48)))), ((int)(((byte)(160)))));
