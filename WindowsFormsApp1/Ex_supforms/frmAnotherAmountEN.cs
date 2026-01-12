@@ -27,11 +27,11 @@ namespace WindowsFormsApp1
                 {
 
 
-                    MessageBox.Show("Cant DO it baby");
+                    MessageBox.Show("most be smaller then 30000");
                 }
                 else if (Amounttxt < 1000 || Amounttxt % 1000 != 0)
                 {
-                    MessageBox.Show("المبلغ يجب أن يكون 1000 أو أحد مضاعفاته");
+                    MessageBox.Show("The amount must be 1000 or a multiple of 1000");
 
                 }
                 else
