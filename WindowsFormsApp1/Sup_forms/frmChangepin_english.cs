@@ -50,6 +50,7 @@ namespace WindowsFormsApp1
 
         private bool CheckOldPassInDB()
         {
+            
             if (DB.con.State == ConnectionState.Closed) DB.con.Open();
 
 

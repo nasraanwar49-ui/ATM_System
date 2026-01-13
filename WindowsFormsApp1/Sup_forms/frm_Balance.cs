@@ -43,9 +43,7 @@ namespace WindowsFormsApp1
 
                 DB.cmd = new SqlCommand("SELECT Balance FROM Users WHERE ID_Users = @id", DB.con);
 
-                int ID_Users = 1;
-
-                DB.cmd.Parameters.Add("@id", SqlDbType.Int).Value = ID_Users;
+                DB.cmd.Parameters.Add("@id", SqlDbType.Int).Value = seesion.ID_Users;
                 object result = DB.cmd.ExecuteScalar();
 
                 DB.con.Close();
@@ -56,7 +54,9 @@ namespace WindowsFormsApp1
                 }
                 else
                 {
-                    MessageBox.Show("Invalid Account Number or PIN");
+                    Error errorForm = new Error();
+                    errorForm.Show();
+                    this.Hide();
                 }
             }
             catch (Exception ex)
