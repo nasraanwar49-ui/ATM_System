@@ -54,8 +54,8 @@
             this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton8 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton8 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.gunaGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -150,6 +150,7 @@
             this.txtConfirmPass.HoverState.Parent = this.txtConfirmPass;
             this.txtConfirmPass.Location = new System.Drawing.Point(202, 240);
             this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtConfirmPass.MaxLength = 4;
             this.txtConfirmPass.Name = "txtConfirmPass";
             this.txtConfirmPass.PasswordChar = '\0';
             this.txtConfirmPass.PlaceholderText = "";
@@ -177,6 +178,7 @@
             this.txtNewPass.HoverState.Parent = this.txtNewPass;
             this.txtNewPass.Location = new System.Drawing.Point(202, 188);
             this.txtNewPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNewPass.MaxLength = 4;
             this.txtNewPass.Name = "txtNewPass";
             this.txtNewPass.PasswordChar = '\0';
             this.txtNewPass.PlaceholderText = "";
@@ -204,6 +206,7 @@
             this.txtOldPass.HoverState.Parent = this.txtOldPass;
             this.txtOldPass.Location = new System.Drawing.Point(202, 134);
             this.txtOldPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtOldPass.MaxLength = 4;
             this.txtOldPass.Name = "txtOldPass";
             this.txtOldPass.PasswordChar = '\0';
             this.txtOldPass.PlaceholderText = "";
@@ -529,27 +532,6 @@
             this.guna2CircleButton5.Text = "5";
             this.guna2CircleButton5.Click += new System.EventHandler(this.guna2CircleButton5_Click);
             // 
-            // guna2CircleButton8
-            // 
-            this.guna2CircleButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2CircleButton8.CheckedState.Parent = this.guna2CircleButton8;
-            this.guna2CircleButton8.CustomImages.Parent = this.guna2CircleButton8;
-            this.guna2CircleButton8.FillColor = System.Drawing.Color.White;
-            this.guna2CircleButton8.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButton8.ForeColor = System.Drawing.Color.Black;
-            this.guna2CircleButton8.HoverState.Parent = this.guna2CircleButton8;
-            this.guna2CircleButton8.Location = new System.Drawing.Point(64, 105);
-            this.guna2CircleButton8.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2CircleButton8.Name = "guna2CircleButton8";
-            this.guna2CircleButton8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton8.ShadowDecoration.Parent = this.guna2CircleButton8;
-            this.guna2CircleButton8.Size = new System.Drawing.Size(54, 45);
-            this.guna2CircleButton8.TabIndex = 18;
-            this.guna2CircleButton8.Text = "8";
-            this.guna2CircleButton8.Click += new System.EventHandler(this.guna2CircleButton8_Click);
-            // 
             // guna2CircleButton1
             // 
             this.guna2CircleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -570,6 +552,27 @@
             this.guna2CircleButton1.TabIndex = 11;
             this.guna2CircleButton1.Text = "1";
             this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
+            // 
+            // guna2CircleButton8
+            // 
+            this.guna2CircleButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2CircleButton8.CheckedState.Parent = this.guna2CircleButton8;
+            this.guna2CircleButton8.CustomImages.Parent = this.guna2CircleButton8;
+            this.guna2CircleButton8.FillColor = System.Drawing.Color.White;
+            this.guna2CircleButton8.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CircleButton8.ForeColor = System.Drawing.Color.Black;
+            this.guna2CircleButton8.HoverState.Parent = this.guna2CircleButton8;
+            this.guna2CircleButton8.Location = new System.Drawing.Point(64, 105);
+            this.guna2CircleButton8.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2CircleButton8.Name = "guna2CircleButton8";
+            this.guna2CircleButton8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton8.ShadowDecoration.Parent = this.guna2CircleButton8;
+            this.guna2CircleButton8.Size = new System.Drawing.Size(54, 45);
+            this.guna2CircleButton8.TabIndex = 18;
+            this.guna2CircleButton8.Text = "8";
+            this.guna2CircleButton8.Click += new System.EventHandler(this.guna2CircleButton8_Click);
             // 
             // frmChangepin_english
             // 
