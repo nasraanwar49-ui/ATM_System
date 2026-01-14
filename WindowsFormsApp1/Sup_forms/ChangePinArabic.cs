@@ -142,10 +142,8 @@ namespace WindowsFormsApp1
         private void guna2PictureBox1_Click_1(object sender, EventArgs e)
         {
 
-            txtOldPass.Clear();
-            txtNewPass.Clear();
-            txtConfirmPass.Clear();
-            txtOldPass.Focus();
+           
+     
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -203,6 +201,16 @@ namespace WindowsFormsApp1
             {
                 e.Handled = true;
             }
+        }
+
+        private void txtOldPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click_2(object sender, EventArgs e)
+        {
+
         }
     }
 }

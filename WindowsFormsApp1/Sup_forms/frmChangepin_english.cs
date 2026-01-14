@@ -92,7 +92,7 @@ namespace WindowsFormsApp1
             }
 
         }
-
+       
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
@@ -143,10 +143,7 @@ namespace WindowsFormsApp1
 
         private void guna2PictureBox1_Click_1(object sender, EventArgs e)
         {
-            txtOldPass.Clear();
-            txtNewPass.Clear();
-            txtConfirmPass.Clear();
-            txtOldPass.Focus();
+            
         }
 
 
@@ -198,6 +195,21 @@ namespace WindowsFormsApp1
         private void txtConfirmPass_TextChanged(object sender, EventArgs e)
         {
            
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            DeleteLastNumber(); 
+        }
+
+        private void txtOldPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click_2(object sender, EventArgs e)
+        {
+
         }
     }
 }

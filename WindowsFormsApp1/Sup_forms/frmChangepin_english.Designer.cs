@@ -87,7 +87,7 @@
             this.gunaGradientPanel1.GradientColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(48)))), ((int)(((byte)(160)))));
             this.gunaGradientPanel1.GradientColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.gunaGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.gunaGradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gunaGradientPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.gunaGradientPanel1.Name = "gunaGradientPanel1";
             this.gunaGradientPanel1.Size = new System.Drawing.Size(686, 427);
             this.gunaGradientPanel1.TabIndex = 0;
@@ -114,7 +114,7 @@
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(1, 4);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(143, 31);
             this.guna2HtmlLabel5.TabIndex = 24;
@@ -126,7 +126,7 @@
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(246, 57);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(195, 37);
             this.guna2HtmlLabel1.TabIndex = 22;
@@ -149,7 +149,7 @@
             this.txtConfirmPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtConfirmPass.HoverState.Parent = this.txtConfirmPass;
             this.txtConfirmPass.Location = new System.Drawing.Point(202, 240);
-            this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtConfirmPass.Name = "txtConfirmPass";
             this.txtConfirmPass.PasswordChar = '\0';
             this.txtConfirmPass.PlaceholderText = "";
@@ -176,7 +176,7 @@
             this.txtNewPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNewPass.HoverState.Parent = this.txtNewPass;
             this.txtNewPass.Location = new System.Drawing.Point(202, 188);
-            this.txtNewPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNewPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtNewPass.Name = "txtNewPass";
             this.txtNewPass.PasswordChar = '\0';
             this.txtNewPass.PlaceholderText = "";
@@ -203,7 +203,7 @@
             this.txtOldPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtOldPass.HoverState.Parent = this.txtOldPass;
             this.txtOldPass.Location = new System.Drawing.Point(202, 134);
-            this.txtOldPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtOldPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtOldPass.Name = "txtOldPass";
             this.txtOldPass.PasswordChar = '\0';
             this.txtOldPass.PlaceholderText = "";
@@ -211,6 +211,7 @@
             this.txtOldPass.ShadowDecoration.Parent = this.txtOldPass;
             this.txtOldPass.Size = new System.Drawing.Size(106, 22);
             this.txtOldPass.TabIndex = 19;
+            this.txtOldPass.TextChanged += new System.EventHandler(this.txtOldPass_TextChanged);
             this.txtOldPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtOldPass_KeyPress);
             // 
             // guna2HtmlLabel4
@@ -220,7 +221,7 @@
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(36, 240);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(160, 20);
             this.guna2HtmlLabel4.TabIndex = 18;
@@ -233,7 +234,7 @@
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(36, 188);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(148, 20);
             this.guna2HtmlLabel3.TabIndex = 17;
@@ -247,7 +248,7 @@
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(36, 134);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(136, 20);
             this.guna2HtmlLabel2.TabIndex = 16;
@@ -266,7 +267,7 @@
             this.guna2Button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
             this.guna2Button2.Location = new System.Drawing.Point(216, 315);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
             this.guna2Button2.Size = new System.Drawing.Size(92, 37);
@@ -286,7 +287,7 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Location = new System.Drawing.Point(84, 315);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(88, 37);
@@ -302,10 +303,11 @@
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(410, 310);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(352, 310);
             this.guna2PictureBox1.TabIndex = 23;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click_2);
             // 
             // tableLayoutPanel1
             // 
@@ -323,11 +325,11 @@
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton3, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton2, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton5, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton8, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton8, 1, 2);
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(411, 126);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(416, 128);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.0916F));
@@ -350,7 +352,7 @@
             this.guna2CircleButton11.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton11.HoverState.Parent = this.guna2CircleButton11;
             this.guna2CircleButton11.Location = new System.Drawing.Point(64, 154);
-            this.guna2CircleButton11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton11.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton11.Name = "guna2CircleButton11";
             this.guna2CircleButton11.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton11.ShadowDecoration.Parent = this.guna2CircleButton11;
@@ -371,7 +373,7 @@
             this.guna2CircleButton10.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton10.HoverState.Parent = this.guna2CircleButton10;
             this.guna2CircleButton10.Location = new System.Drawing.Point(2, 154);
-            this.guna2CircleButton10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton10.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton10.Name = "guna2CircleButton10";
             this.guna2CircleButton10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton10.ShadowDecoration.Parent = this.guna2CircleButton10;
@@ -392,7 +394,7 @@
             this.guna2CircleButton9.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton9.HoverState.Parent = this.guna2CircleButton9;
             this.guna2CircleButton9.Location = new System.Drawing.Point(122, 105);
-            this.guna2CircleButton9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton9.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton9.Name = "guna2CircleButton9";
             this.guna2CircleButton9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton9.ShadowDecoration.Parent = this.guna2CircleButton9;
@@ -413,7 +415,7 @@
             this.guna2CircleButton7.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton7.HoverState.Parent = this.guna2CircleButton7;
             this.guna2CircleButton7.Location = new System.Drawing.Point(2, 105);
-            this.guna2CircleButton7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton7.Name = "guna2CircleButton7";
             this.guna2CircleButton7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton7.ShadowDecoration.Parent = this.guna2CircleButton7;
@@ -434,7 +436,7 @@
             this.guna2CircleButton6.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton6.HoverState.Parent = this.guna2CircleButton6;
             this.guna2CircleButton6.Location = new System.Drawing.Point(122, 52);
-            this.guna2CircleButton6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton6.Name = "guna2CircleButton6";
             this.guna2CircleButton6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton6.ShadowDecoration.Parent = this.guna2CircleButton6;
@@ -455,7 +457,7 @@
             this.guna2CircleButton4.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton4.HoverState.Parent = this.guna2CircleButton4;
             this.guna2CircleButton4.Location = new System.Drawing.Point(2, 52);
-            this.guna2CircleButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton4.Name = "guna2CircleButton4";
             this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton4.ShadowDecoration.Parent = this.guna2CircleButton4;
@@ -476,7 +478,7 @@
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton3.HoverState.Parent = this.guna2CircleButton3;
             this.guna2CircleButton3.Location = new System.Drawing.Point(122, 2);
-            this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton3.ShadowDecoration.Parent = this.guna2CircleButton3;
@@ -497,7 +499,7 @@
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton2.HoverState.Parent = this.guna2CircleButton2;
             this.guna2CircleButton2.Location = new System.Drawing.Point(64, 2);
-            this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton2.ShadowDecoration.Parent = this.guna2CircleButton2;
@@ -518,7 +520,7 @@
             this.guna2CircleButton5.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton5.HoverState.Parent = this.guna2CircleButton5;
             this.guna2CircleButton5.Location = new System.Drawing.Point(64, 52);
-            this.guna2CircleButton5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton5.Name = "guna2CircleButton5";
             this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton5.ShadowDecoration.Parent = this.guna2CircleButton5;
@@ -539,7 +541,7 @@
             this.guna2CircleButton8.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton8.HoverState.Parent = this.guna2CircleButton8;
             this.guna2CircleButton8.Location = new System.Drawing.Point(64, 105);
-            this.guna2CircleButton8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton8.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton8.Name = "guna2CircleButton8";
             this.guna2CircleButton8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton8.ShadowDecoration.Parent = this.guna2CircleButton8;
@@ -560,7 +562,7 @@
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
             this.guna2CircleButton1.Location = new System.Drawing.Point(2, 2);
-            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
@@ -576,7 +578,7 @@
             this.ClientSize = new System.Drawing.Size(686, 427);
             this.Controls.Add(this.gunaGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmChangepin_english";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

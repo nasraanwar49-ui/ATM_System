@@ -43,7 +43,6 @@
             this.txtOldPass = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.btnaccebte = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.guna2CircleButton11 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton10 = new Guna.UI2.WinForms.Guna2CircleButton();
@@ -56,10 +55,11 @@
             this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton8 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.gunaGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // gunaGradientPanel1
@@ -87,9 +87,9 @@
             this.gunaGradientPanel1.GradientColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(48)))), ((int)(((byte)(160)))));
             this.gunaGradientPanel1.GradientColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.gunaGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.gunaGradientPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gunaGradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaGradientPanel1.Name = "gunaGradientPanel1";
-            this.gunaGradientPanel1.Size = new System.Drawing.Size(915, 526);
+            this.gunaGradientPanel1.Size = new System.Drawing.Size(686, 427);
             this.gunaGradientPanel1.TabIndex = 0;
             this.gunaGradientPanel1.Text = "gunaGradientPanel1";
             this.gunaGradientPanel1.Click += new System.EventHandler(this.gunaGradientPanel1_Click);
@@ -100,9 +100,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(731, 296);
+            this.label4.Location = new System.Drawing.Point(548, 240);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 25);
+            this.label4.Size = new System.Drawing.Size(127, 22);
             this.label4.TabIndex = 29;
             this.label4.Text = "تأكيد الرمز الجديد :";
             // 
@@ -112,9 +113,10 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(730, 236);
+            this.label3.Location = new System.Drawing.Point(548, 192);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(157, 25);
+            this.label3.Size = new System.Drawing.Size(129, 22);
             this.label3.TabIndex = 28;
             this.label3.Text = "أدخل الرمز الجديد :";
             // 
@@ -124,9 +126,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(728, 178);
+            this.label2.Location = new System.Drawing.Point(546, 145);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 25);
+            this.label2.Size = new System.Drawing.Size(129, 22);
             this.label2.TabIndex = 27;
             this.label2.Text = "أدخل الرمز الحالي :";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -137,9 +140,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(275, 47);
+            this.label1.Location = new System.Drawing.Point(206, 38);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(229, 42);
+            this.label1.Size = new System.Drawing.Size(187, 35);
             this.label1.TabIndex = 26;
             this.label1.Text = "تغير الرمز السري";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -147,12 +151,11 @@
             // guna2CirclePictureBox1
             // 
             this.guna2CirclePictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.IMG_3470_removebg_preview;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(801, 0);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(601, 0);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(110, 90);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(82, 73);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 25;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -163,10 +166,10 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(1, 5);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(1, 4);
+            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(178, 39);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(143, 31);
             this.guna2HtmlLabel5.TabIndex = 24;
             this.guna2HtmlLabel5.Text = "ATM System";
             // 
@@ -186,15 +189,15 @@
             this.txtConfirmPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtConfirmPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtConfirmPass.HoverState.Parent = this.txtConfirmPass;
-            this.txtConfirmPass.Location = new System.Drawing.Point(532, 296);
-            this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(5);
+            this.txtConfirmPass.Location = new System.Drawing.Point(399, 240);
+            this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtConfirmPass.Name = "txtConfirmPass";
             this.txtConfirmPass.PasswordChar = '\0';
             this.txtConfirmPass.PlaceholderText = "";
             this.txtConfirmPass.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtConfirmPass.SelectedText = "";
             this.txtConfirmPass.ShadowDecoration.Parent = this.txtConfirmPass;
-            this.txtConfirmPass.Size = new System.Drawing.Size(149, 27);
+            this.txtConfirmPass.Size = new System.Drawing.Size(112, 22);
             this.txtConfirmPass.TabIndex = 21;
             this.txtConfirmPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtConfirmPass_KeyPress);
             // 
@@ -214,15 +217,15 @@
             this.txtNewPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNewPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNewPass.HoverState.Parent = this.txtNewPass;
-            this.txtNewPass.Location = new System.Drawing.Point(532, 236);
-            this.txtNewPass.Margin = new System.Windows.Forms.Padding(5);
+            this.txtNewPass.Location = new System.Drawing.Point(399, 192);
+            this.txtNewPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNewPass.Name = "txtNewPass";
             this.txtNewPass.PasswordChar = '\0';
             this.txtNewPass.PlaceholderText = "";
             this.txtNewPass.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtNewPass.SelectedText = "";
             this.txtNewPass.ShadowDecoration.Parent = this.txtNewPass;
-            this.txtNewPass.Size = new System.Drawing.Size(149, 27);
+            this.txtNewPass.Size = new System.Drawing.Size(112, 22);
             this.txtNewPass.TabIndex = 20;
             this.txtNewPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNewPass_KeyPress);
             // 
@@ -242,16 +245,17 @@
             this.txtOldPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtOldPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtOldPass.HoverState.Parent = this.txtOldPass;
-            this.txtOldPass.Location = new System.Drawing.Point(532, 178);
-            this.txtOldPass.Margin = new System.Windows.Forms.Padding(5);
+            this.txtOldPass.Location = new System.Drawing.Point(399, 145);
+            this.txtOldPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtOldPass.Name = "txtOldPass";
             this.txtOldPass.PasswordChar = '\0';
             this.txtOldPass.PlaceholderText = "";
             this.txtOldPass.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtOldPass.SelectedText = "";
             this.txtOldPass.ShadowDecoration.Parent = this.txtOldPass;
-            this.txtOldPass.Size = new System.Drawing.Size(149, 27);
+            this.txtOldPass.Size = new System.Drawing.Size(112, 22);
             this.txtOldPass.TabIndex = 19;
+            this.txtOldPass.TextChanged += new System.EventHandler(this.txtOldPass_TextChanged);
             this.txtOldPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtOldPass_KeyPress);
             // 
             // guna2Button2
@@ -265,11 +269,11 @@
             this.guna2Button2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(728, 389);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button2.Location = new System.Drawing.Point(546, 316);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(124, 46);
+            this.guna2Button2.Size = new System.Drawing.Size(93, 37);
             this.guna2Button2.TabIndex = 15;
             this.guna2Button2.Text = "ألغاء";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -285,28 +289,14 @@
             this.btnaccebte.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnaccebte.ForeColor = System.Drawing.Color.Black;
             this.btnaccebte.HoverState.Parent = this.btnaccebte;
-            this.btnaccebte.Location = new System.Drawing.Point(561, 389);
-            this.btnaccebte.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnaccebte.Location = new System.Drawing.Point(421, 316);
+            this.btnaccebte.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnaccebte.Name = "btnaccebte";
             this.btnaccebte.ShadowDecoration.Parent = this.btnaccebte;
-            this.btnaccebte.Size = new System.Drawing.Size(117, 46);
+            this.btnaccebte.Size = new System.Drawing.Size(88, 37);
             this.btnaccebte.TabIndex = 14;
             this.btnaccebte.Text = "تأكيد";
             this.btnaccebte.Click += new System.EventHandler(this.btnaccebte_Click);
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(63, 165);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(464, 538);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.guna2PictureBox1.TabIndex = 23;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // tableLayoutPanel1
             // 
@@ -314,7 +304,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.80723F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.19277F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 73F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 56F));
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton11, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton10, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton9, 2, 2);
@@ -327,16 +317,16 @@
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton8, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.guna2CircleButton1, 0, 0);
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(138, 165);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(104, 134);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.0916F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.9084F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 64F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(215, 234);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 49F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(161, 190);
             this.tableLayoutPanel1.TabIndex = 13;
             // 
             // guna2CircleButton11
@@ -350,12 +340,12 @@
             this.guna2CircleButton11.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton11.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton11.HoverState.Parent = this.guna2CircleButton11;
-            this.guna2CircleButton11.Location = new System.Drawing.Point(77, 171);
-            this.guna2CircleButton11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton11.Location = new System.Drawing.Point(59, 139);
+            this.guna2CircleButton11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton11.Name = "guna2CircleButton11";
             this.guna2CircleButton11.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton11.ShadowDecoration.Parent = this.guna2CircleButton11;
-            this.guna2CircleButton11.Size = new System.Drawing.Size(62, 61);
+            this.guna2CircleButton11.Size = new System.Drawing.Size(46, 49);
             this.guna2CircleButton11.TabIndex = 21;
             this.guna2CircleButton11.Text = "0";
             this.guna2CircleButton11.Click += new System.EventHandler(this.guna2CircleButton11_Click);
@@ -371,12 +361,12 @@
             this.guna2CircleButton10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton10.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton10.HoverState.Parent = this.guna2CircleButton10;
-            this.guna2CircleButton10.Location = new System.Drawing.Point(145, 171);
-            this.guna2CircleButton10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton10.Location = new System.Drawing.Point(109, 139);
+            this.guna2CircleButton10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton10.Name = "guna2CircleButton10";
             this.guna2CircleButton10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton10.ShadowDecoration.Parent = this.guna2CircleButton10;
-            this.guna2CircleButton10.Size = new System.Drawing.Size(67, 61);
+            this.guna2CircleButton10.Size = new System.Drawing.Size(50, 49);
             this.guna2CircleButton10.TabIndex = 20;
             this.guna2CircleButton10.Text = "مسح";
             this.guna2CircleButton10.Click += new System.EventHandler(this.guna2CircleButton10_Click);
@@ -392,12 +382,12 @@
             this.guna2CircleButton9.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton9.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton9.HoverState.Parent = this.guna2CircleButton9;
-            this.guna2CircleButton9.Location = new System.Drawing.Point(3, 111);
-            this.guna2CircleButton9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton9.Location = new System.Drawing.Point(2, 90);
+            this.guna2CircleButton9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton9.Name = "guna2CircleButton9";
             this.guna2CircleButton9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton9.ShadowDecoration.Parent = this.guna2CircleButton9;
-            this.guna2CircleButton9.Size = new System.Drawing.Size(68, 56);
+            this.guna2CircleButton9.Size = new System.Drawing.Size(53, 45);
             this.guna2CircleButton9.TabIndex = 19;
             this.guna2CircleButton9.Text = "9";
             this.guna2CircleButton9.Click += new System.EventHandler(this.guna2CircleButton9_Click);
@@ -413,12 +403,12 @@
             this.guna2CircleButton7.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton7.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton7.HoverState.Parent = this.guna2CircleButton7;
-            this.guna2CircleButton7.Location = new System.Drawing.Point(145, 111);
-            this.guna2CircleButton7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton7.Location = new System.Drawing.Point(109, 90);
+            this.guna2CircleButton7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton7.Name = "guna2CircleButton7";
             this.guna2CircleButton7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton7.ShadowDecoration.Parent = this.guna2CircleButton7;
-            this.guna2CircleButton7.Size = new System.Drawing.Size(67, 56);
+            this.guna2CircleButton7.Size = new System.Drawing.Size(50, 45);
             this.guna2CircleButton7.TabIndex = 17;
             this.guna2CircleButton7.Text = "7";
             this.guna2CircleButton7.Click += new System.EventHandler(this.guna2CircleButton7_Click);
@@ -434,12 +424,12 @@
             this.guna2CircleButton6.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton6.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton6.HoverState.Parent = this.guna2CircleButton6;
-            this.guna2CircleButton6.Location = new System.Drawing.Point(3, 54);
-            this.guna2CircleButton6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton6.Location = new System.Drawing.Point(2, 44);
+            this.guna2CircleButton6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton6.Name = "guna2CircleButton6";
             this.guna2CircleButton6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton6.ShadowDecoration.Parent = this.guna2CircleButton6;
-            this.guna2CircleButton6.Size = new System.Drawing.Size(68, 53);
+            this.guna2CircleButton6.Size = new System.Drawing.Size(53, 42);
             this.guna2CircleButton6.TabIndex = 16;
             this.guna2CircleButton6.Text = "6";
             this.guna2CircleButton6.Click += new System.EventHandler(this.guna2CircleButton6_Click);
@@ -455,12 +445,12 @@
             this.guna2CircleButton4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton4.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton4.HoverState.Parent = this.guna2CircleButton4;
-            this.guna2CircleButton4.Location = new System.Drawing.Point(145, 54);
-            this.guna2CircleButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton4.Location = new System.Drawing.Point(109, 44);
+            this.guna2CircleButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton4.Name = "guna2CircleButton4";
             this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton4.ShadowDecoration.Parent = this.guna2CircleButton4;
-            this.guna2CircleButton4.Size = new System.Drawing.Size(67, 53);
+            this.guna2CircleButton4.Size = new System.Drawing.Size(50, 42);
             this.guna2CircleButton4.TabIndex = 14;
             this.guna2CircleButton4.Text = "4";
             this.guna2CircleButton4.Click += new System.EventHandler(this.guna2CircleButton4_Click);
@@ -476,12 +466,12 @@
             this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton3.HoverState.Parent = this.guna2CircleButton3;
-            this.guna2CircleButton3.Location = new System.Drawing.Point(3, 2);
-            this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton3.Location = new System.Drawing.Point(2, 2);
+            this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton3.ShadowDecoration.Parent = this.guna2CircleButton3;
-            this.guna2CircleButton3.Size = new System.Drawing.Size(68, 48);
+            this.guna2CircleButton3.Size = new System.Drawing.Size(53, 38);
             this.guna2CircleButton3.TabIndex = 13;
             this.guna2CircleButton3.Text = "3";
             this.guna2CircleButton3.Click += new System.EventHandler(this.guna2CircleButton3_Click);
@@ -497,12 +487,12 @@
             this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton2.HoverState.Parent = this.guna2CircleButton2;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(77, 2);
-            this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(59, 2);
+            this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton2.ShadowDecoration.Parent = this.guna2CircleButton2;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(62, 48);
+            this.guna2CircleButton2.Size = new System.Drawing.Size(46, 38);
             this.guna2CircleButton2.TabIndex = 12;
             this.guna2CircleButton2.Text = "2";
             this.guna2CircleButton2.Click += new System.EventHandler(this.guna2CircleButton2_Click);
@@ -518,12 +508,12 @@
             this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton5.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton5.HoverState.Parent = this.guna2CircleButton5;
-            this.guna2CircleButton5.Location = new System.Drawing.Point(77, 54);
-            this.guna2CircleButton5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton5.Location = new System.Drawing.Point(59, 44);
+            this.guna2CircleButton5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton5.Name = "guna2CircleButton5";
             this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton5.ShadowDecoration.Parent = this.guna2CircleButton5;
-            this.guna2CircleButton5.Size = new System.Drawing.Size(62, 53);
+            this.guna2CircleButton5.Size = new System.Drawing.Size(46, 42);
             this.guna2CircleButton5.TabIndex = 15;
             this.guna2CircleButton5.Text = "5";
             this.guna2CircleButton5.Click += new System.EventHandler(this.guna2CircleButton5_Click);
@@ -539,12 +529,12 @@
             this.guna2CircleButton8.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton8.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton8.HoverState.Parent = this.guna2CircleButton8;
-            this.guna2CircleButton8.Location = new System.Drawing.Point(77, 111);
-            this.guna2CircleButton8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton8.Location = new System.Drawing.Point(59, 90);
+            this.guna2CircleButton8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton8.Name = "guna2CircleButton8";
             this.guna2CircleButton8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton8.ShadowDecoration.Parent = this.guna2CircleButton8;
-            this.guna2CircleButton8.Size = new System.Drawing.Size(62, 56);
+            this.guna2CircleButton8.Size = new System.Drawing.Size(46, 45);
             this.guna2CircleButton8.TabIndex = 18;
             this.guna2CircleButton8.Text = "8";
             this.guna2CircleButton8.Click += new System.EventHandler(this.guna2CircleButton8_Click);
@@ -560,24 +550,38 @@
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(145, 2);
-            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(109, 2);
+            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(67, 48);
+            this.guna2CircleButton1.Size = new System.Drawing.Size(50, 38);
             this.guna2CircleButton1.TabIndex = 11;
             this.guna2CircleButton1.Text = "1";
             this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._68f2872184be6ccc614b5bad_Decentralized_Agent_Network_removebg_preview;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(47, 136);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(464, 538);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.guna2PictureBox1.TabIndex = 23;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click_2);
+            // 
             // frmChangePinArabic
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(915, 526);
+            this.ClientSize = new System.Drawing.Size(686, 427);
             this.Controls.Add(this.gunaGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmChangePinArabic";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
@@ -586,8 +590,8 @@
             this.gunaGradientPanel1.ResumeLayout(false);
             this.gunaGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
